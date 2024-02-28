@@ -270,7 +270,7 @@ of the variables representing weight indices (i.e., `prod_vol_purch`,
 and `displaced_recipe_vol`)
 
 ``` r
-aggregated_data %>%
+aggregated_data <- aggregated_data %>%
   mutate(case_when(site=="university of bristol" ~ recipe_cost==recipe_cost*1.27)) %>%
   mutate(case_when(site=="university of bristol" ~ displaced_recipe_cost==displaced_recipe_cost*1.27)) %>%
   mutate(case_when(site=="university of bristol" ~ prod_vol_purch==prod_vol_purch*2.205)) %>%
@@ -285,28 +285,16 @@ aggregated_data %>%
   mutate(case_when(site=="university of reading" ~ prod_vol_in_recipe==prod_vol_in_recipe*2.205)) 
 ```
 
-    ## # A tibble: 745 × 18
-    ##    site    date  prod_…¹ prod_…² prod_…³ prod_…⁴ prod_…⁵ meal_…⁶ meal_…⁷ recip…⁸
-    ##    <chr>   <chr>   <dbl> <chr>     <dbl> <chr>     <dbl> <chr>     <dbl> <chr>  
-    ##  1 boston… Oct …     190 pineap…   85.8  "tops,…    68.8 Breakf…     978 "pinea…
-    ##  2 boston… Oct …      60 brocco…    7.25 "stem …     1   Lunch      2447 "pinea…
-    ##  3 boston… Oct …      30 cilant…    3    "stem"      0.5 Dinner     1755 ""     
-    ##  4 boston… Oct …     220 pineap…   99.3  "tops,…    79.7 Breakf…    1146 "pinea…
-    ##  5 boston… Oct …      60 brocco…    7.7  "stem …     1.1 Lunch      2153 "pinea…
-    ##  6 boston… Oct …      30 cilant…    3.4  "stem"      0.6 Dinner     1611 ""     
-    ##  7 boston… Oct …     189 pineap…   85.3  "tops,…    68.4 Breakf…    1003 "pinea…
-    ##  8 boston… Oct …      42 brocco…    5.4  "stem …     0.7 Lunch      2314 "pinea…
-    ##  9 boston… Oct …      60 cilant…    6.7  "stem"      1.1 Dinner     1614 "pickl…
-    ## 10 boston… Oct …      NA pineap…   NA    ""         NA   Breakf…    1085 "pinea…
-    ## # … with 735 more rows, 8 more variables: prod_vol_in_recipe <dbl>,
-    ## #   recipe_cost <dbl>, recipe_servings <dbl>, displaced_recipe <chr>,
-    ## #   displaced_recipe_vol <dbl>, displaced_recipe_cost <dbl>,
-    ## #   displaced_recipe_servings <dbl>, `case_when(...)` <lgl>, and abbreviated
-    ## #   variable names ¹​prod_vol_purch, ²​prod_type, ³​prod_vol_avail_upcyc,
-    ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
-    ## #   ⁷​meal_swipes, ⁸​recipe_served
-
 —- ^^^ still need to spot check whether this worked as intended ^^^ —-
+
+- because the tibble contains data that correspond to different time
+  intervals (i.e., some data that correspond to a day and some data that
+  correspond to a meal period), we also need to align respondents’
+  day-level data inputs with all cells that correspond to that same day.
+  said differently, there are either three or four rows corresponding to
+  each day for each site, and the inputs that correspond to that day are
+  frequently represented under just one of those three or four sets of
+  cells.
 
 ### data writing and codebook documentation
 

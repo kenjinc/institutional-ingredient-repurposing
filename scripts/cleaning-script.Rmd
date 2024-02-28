@@ -205,7 +205,7 @@ to accomplish this, we'll perform a conditional mutate that applies conversion f
 more specifically, we will do this to each of the variables representing cost indices (i.e., `recipe_cost` and `displaced_recipe_cost`) and each of the variables representing weight indices (i.e., `prod_vol_purch`, `prod_vol_avail_upcyc`, `prod_vol_unavail_upcyc`, `prod_vol_in_recipe`, and `displaced_recipe_vol`)
 
 ```{r}
-aggregated_data %>%
+aggregated_data <- aggregated_data %>%
   mutate(case_when(site=="university of bristol" ~ recipe_cost==recipe_cost*1.27)) %>%
   mutate(case_when(site=="university of bristol" ~ displaced_recipe_cost==displaced_recipe_cost*1.27)) %>%
   mutate(case_when(site=="university of bristol" ~ prod_vol_purch==prod_vol_purch*2.205)) %>%
@@ -222,7 +222,7 @@ aggregated_data %>%
 
 ---- ^^^ still need to spot check whether this worked as intended ^^^ ---- 
 
-
+* because the tibble contains data that correspond to different time intervals (i.e., some data that correspond to a day and some data that correspond to a meal period), we also need to align respondents' day-level data inputs with all cells that correspond to that same day. said differently, there are either three or four rows corresponding to each day for each site, and the inputs that correspond to that day are frequently represented under just one of those three or four sets of cells. 
 
 
 ### data writing and codebook documentation
