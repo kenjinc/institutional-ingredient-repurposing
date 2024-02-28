@@ -2,75 +2,71 @@
 Site: BU,Total product purchased,Available Product Type (to Prepare for Service),Total available product to repurpose (after primary fabrication or preparation),Product Unable to Repurpose,Total available product left that cannot be repurposed (remaining product waste),,Meal Period Utilization Recipe Served,Meal swipes per period,Recipe Name,Volume of Repurposed Ingredient Used in Recipe,Cost per recipe,Servings per recipe,Displaced Recipe Name (Optional: if replacing something on the line),Volume that would have been served,Cost per recipe,Servings per recipe
 Product Type:,(Volume in pounds),(Product Type),(Volume in pounds),(Product Type),(Volume in pounds),,,(when utilization recipe served),,(in pounds),(dollar/cents per recipe),(number of servings),,(of displaced recipe),(dollar/cents per recipe),(number of servings)
 Oct 23,190,pineapple,85.75,"tops, skin, cores ",68.75,,Breakfast,978,pineapple water,1.5,0,16,lemon water,10,1.42,16
-,60,broccoli stem,7.25,stem base ,1,,Lunch,2447,pineapple core vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
-,30,cilantro,3,stem,0.5,,Dinner,1755,,,,,,,,
+Oct 23,60,broccoli stem,7.25,stem base ,1,,Lunch,2447,pineapple core vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
+Oct 23,30,cilantro,3,stem,0.5,,Dinner,1755,,,,,,,,
 Oct 24,220,pineapple,99.3,"tops, skin, cores",79.7,,Breakfast,1146,pineapple water,1.5,0,16,lime water,10,1.44,16
-,60,broccoli stem,7.7,stem base,1.1,,Lunch,2153,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,30,cilantro,3.4,stem,0.6,,Dinner,1611,,,,,,,,
+Oct 24,60,broccoli stem,7.7,stem base,1.1,,Lunch,2153,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Oct 24,30,cilantro,3.4,stem,0.6,,Dinner,1611,,,,,,,,
 Oct 25,189,pineapple,85.3,"tops, skin, cores",68.4,,Breakfast,1003,pineapple water,1.5,0,16,cuccumber water,10,1.55,16
-,42,broccoli stem,5.4,stem base,0.7,,Lunch,2314,pineapple vin,5.25,6.53,128,pineapple vin,1.25,12.99,128
-,60,cilantro,6.7,stem,1.1,,Dinner,1614,pickled veg salad ,2,1.61,16,,,,
+Oct 25,42,broccoli stem,5.4,stem base,0.7,,Lunch,2314,pineapple vin,5.25,6.53,128,pineapple vin,1.25,12.99,128
+Oct 25,60,cilantro,6.7,stem,1.1,,Dinner,1614,pickled veg salad ,2,1.61,16,,,,
 Oct 26,,pineapple,,,,,Breakfast,1085,pineapple water,1.5,0,16,orange water,10,2.6,16
-,,broccoli stem,,,,,Lunch,2086,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,1495,,,,,,,,
+Oct 26,,broccoli stem,,,,,Lunch,2086,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Oct 26,,cilantro,,,,,Dinner,1495,,,,,,,,
 Oct 27,,pineapple,,,,,Breakfast,885,pineapple water,1.5,0,16,lemon water,10,1.42,16
-,,broccoli stem,,,,,Lunch,2013,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,941,,,,,,,,
-,,,,,,,,,,,,,,,,
+Oct 27,,broccoli stem,,,,,Lunch,2013,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Oct 27,,cilantro,,,,,Dinner,941,,,,,,,,
 Oct 30,,pineapple,,,,,Breakfast,1060,pineapple water,1.5,0,16,orange water,10,2.6,16
-,,broccoli stem,,,,,Lunch,2290,pineapple vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
-,,cilantro,,,,,Dinner,1642,,,,,,,,
+Oct 30,,broccoli stem,,,,,Lunch,2290,pineapple vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
+Oct 30,,cilantro,,,,,Dinner,1642,,,,,,,,
 Oct 31,,pineapple,,,,,Breakfast,1111,pineapple water,1.5,0,16,lemon water,10,1.42,16
-,,broccoli stem,,,,,Lunch,2098,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,1566,,,,,,,,
+Oct 31,,broccoli stem,,,,,Lunch,2098,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Oct 31,,cilantro,,,,,Dinner,1566,,,,,,,,
 Nov 1,,pineapple,,,,,Breakfast,966,pineapple water,1.5,0,16,lime water,10,1.44,16
-,,broccoli stem,,,,,Lunch,2447,pineapple vin,5.25,6.53,128,pineapple vin,2,12.99,128
-,,cilantro,,,,,Dinner,1681,,,,,,,,
+Nov 1,,broccoli stem,,,,,Lunch,2447,pineapple vin,5.25,6.53,128,pineapple vin,2,12.99,128
+Nov 1,,cilantro,,,,,Dinner,1681,,,,,,,,
 Nov 2,,pineapple,,,,,Breakfast,1091,pineapple water,1.5,0,16,cuccumber water,10,1.55,16
-,,broccoli stem,,,,,Lunch,2122,pineapple vin,5.25,6.53,128,pineapple vin,1.25,12.99,128
-,,cilantro,,,,,Dinner,1513,,,,,,,,
+Nov 2,,broccoli stem,,,,,Lunch,2122,pineapple vin,5.25,6.53,128,pineapple vin,1.25,12.99,128
+Nov 2,,cilantro,,,,,Dinner,1513,,,,,,,,
 Nov 3,,pineapple,,,,,Breakfast,969,pineapple water,1.5,0,16,orange water,10,2.6,16
-,,broccoli stem,,,,,Lunch,1977,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,938,,,,,,,,
-,,,,,,,,,,,,,,,,
+Nov 3,,broccoli stem,,,,,Lunch,1977,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Nov 3,,cilantro,,,,,Dinner,938,,,,,,,,
 Nov 6,,pineapple,,,,,Breakfast,1014,pineapple water,1.5,0,16,cuccumber water,10,1.55,16
-,,broccoli stem,,,,,Lunch,2396,pineapple vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
-,,cilantro,,,,,Dinner,1708,,,,,,,,
+Nov 6,,broccoli stem,,,,,Lunch,2396,pineapple vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
+Nov 6,,cilantro,,,,,Dinner,1708,,,,,,,,
 Nov 7,,pineapple,,,,,Breakfast,1107,pineapple water,1.5,0,16,orange water,10,2.6,16
-,,broccoli stem,,,,,Lunch,2214,,5.25,6.53,128,pineapple vin,1.5,12.99,128
-,,cilantro,,,,,Dinner,1796,,,,,,,,
+Nov 7,,broccoli stem,,,,,Lunch,2214,,5.25,6.53,128,pineapple vin,1.5,12.99,128
+Nov 7,,cilantro,,,,,Dinner,1796,,,,,,,,
 Nov 8,,pineapple,,,,,Breakfast,1011,pineapple water,1.5,0,16,lemon water,10,1.42,16
-,,broccoli stem,,,,,Lunch,2413,,5.25,6.53,128,pineapple vin,1.75,12.99,128
-,,cilantro,,,,,Dinner,1673,,,,,,,,
+Nov 8,,broccoli stem,,,,,Lunch,2413,,5.25,6.53,128,pineapple vin,1.75,12.99,128
+Nov 8,,cilantro,,,,,Dinner,1673,,,,,,,,
 Nov 9,,pineapple,,,,,Breakfast,1114,pineapple water,1.5,0,16,lime water,10,1.44,16
-,,broccoli stem,,,,,Lunch,2202,,5.25,6.53,128,pineapple vin,1.25,12.99,128
-,,cilantro,,,,,Dinner,1534,,,,,,,,
+Nov 9,,broccoli stem,,,,,Lunch,2202,,5.25,6.53,128,pineapple vin,1.25,12.99,128
+Nov 9,,cilantro,,,,,Dinner,1534,,,,,,,,
 Nov 10,,pineapple,,,,,Breakfast,1007,pineapple water,1.5,0,16,cuccumber water,10,1.55,16
-,,broccoli stem,,,,,Lunch,2115,,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,945,,,,,,,,
-,,,,,,,,,,,,,,,,
+Nov 10,,broccoli stem,,,,,Lunch,2115,,5.25,6.53,128,pineapple vin,1,12.99,128
+Nov 10,,cilantro,,,,,Dinner,945,,,,,,,,
 Nov 13,,pineapple,,,,,Breakfast,949,pineapple water,1.5,0,16,lime water,10,1.44,16
-,,broccoli stem,,,,,Lunch,2428,pineapple vin,5.25,6.53,128,pineapple vin,2,12.99,128
-,,cilantro,,,,,Dinner,1736,,,,,,,,
+Nov 13,,broccoli stem,,,,,Lunch,2428,pineapple vin,5.25,6.53,128,pineapple vin,2,12.99,128
+Nov 13,,cilantro,,,,,Dinner,1736,,,,,,,,
 Nov14,,pineapple,,,,,Breakfast,1129,pineapple water,1.5,0,16,cuccumber water,10,1.55,16
-,,broccoli stem,,,,,Lunch,2147,pineapple vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
-,,cilantro,,,,,Dinner,1652,,,,,,,,
+Nov14,,broccoli stem,,,,,Lunch,2147,pineapple vin,5.25,6.53,128,pineapple vin,1.5,12.99,128
+Nov14,,cilantro,,,,,Dinner,1652,,,,,,,,
 Nov15,,pineapple,,,,,Breakfast,998,pineapple water,1.5,0,16,orange water,10,2.6,16
-,,broccoli stem,,,,,Lunch,2299,pineapple vin,5.25,6.53,128,pineapple vin,1.25,12.99,128
-,,cilantro,,,,,Dinner,1658,,,,,,,,
+Nov15,,broccoli stem,,,,,Lunch,2299,pineapple vin,5.25,6.53,128,pineapple vin,1.25,12.99,128
+Nov15,,cilantro,,,,,Dinner,1658,,,,,,,,
 Nov 16,,pineapple,,,,,Breakfast,1099,pineapple water,1.5,0,16,lemon water,10,1.42,16
-,,broccoli stem,,,,,Lunch,2102,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,1544,,,,,,,,
+Nov 16,,broccoli stem,,,,,Lunch,2102,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Nov 16,,cilantro,,,,,Dinner,1544,,,,,,,,
 Nov 17,,pineapple,,,,,Breakfast,916,pineapple water,1.5,0,16,lime water,10,1.44,16
-,,broccoli stem,,,,,Lunch,2044,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,855,,,,,,,,
-,,,,,,,,,,,,,,,,
+Nov 17,,broccoli stem,,,,,Lunch,2044,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Nov 17,,cilantro,,,,,Dinner,855,,,,,,,,
 Nov 20,,pineapple,,,,,Breakfast,799,pineapple water,1.5,0,16,lemon water,10,1.42,16
-,,broccoli stem,,,,,Lunch,2032,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
-,,cilantro,,,,,Dinner,1361,,,,,,,,
+Nov 20,,broccoli stem,,,,,Lunch,2032,pineapple vin,5.25,6.53,128,pineapple vin,1,12.99,128
+Nov 20,,cilantro,,,,,Dinner,1361,,,,,,,,
 Nov 21,,pineapple,,,,,Breakfast,731,pineapple water,,0,16,lime water,10,1.44,16
-,,broccoli stem,,,,,Lunch,1331,pineapple vin,,6.53,128,pineapple vin,0.75,12.99,128
-,,cilantro,,,,,Dinner,613,,,,,,,,
+Nov 21,,broccoli stem,,,,,Lunch,1331,pineapple vin,,6.53,128,pineapple vin,0.75,12.99,128
+Nov 21,,cilantro,,,,,Dinner,613,,,,,,,,
 Nov 22,,pineapple,,,,,Breakfast,0,,,,,,,,
-,,broccoli stem,,,,,Lunch,0,,,,,,,,
-,,cilantro,,,,,Dinner,0,,,,,,,,
+Nov 22,,broccoli stem,,,,,Lunch,0,,,,,,,,
+Nov 22,,cilantro,,,,,Dinner,0,,,,,,,,

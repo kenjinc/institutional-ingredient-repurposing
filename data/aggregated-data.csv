@@ -1,75 +1,746 @@
-"","Site..BU","Total.product.purchased","Available.Product.Type..to.Prepare.for.Service.","Total.available.product.to.repurpose..after.primary.fabrication.or.preparation.","Product.Unable.to.Repurpose","Total.available.product.left.that.cannot.be.repurposed..remaining.product.waste.","X","Meal.Period.Utilization.Recipe.Served","Meal.swipes.per.period","Recipe.Name","Volume.of.Repurposed.Ingredient.Used.in.Recipe","Cost.per.recipe","Servings.per.recipe","Displaced.Recipe.Name..Optional..if.replacing.something.on.the.line.","Volume.that.would.have.been.served","Cost.per.recipe.1","Servings.per.recipe.1"
-"1","Product Type:","(Volume in pounds)","(Product Type)","(Volume in pounds)","(Product Type)","(Volume in pounds)",NA,"","(when utilization recipe served)","","(in pounds)","(dollar/cents per recipe)","(number of servings)","","(of displaced recipe)","(dollar/cents per recipe)","(number of servings)"
-"2","Oct 23","190","pineapple","85.75","tops, skin, cores ","68.75",NA,"Breakfast","978","pineapple water","1.5","0","16","lemon water","10","1.42","16"
-"3","","60","broccoli stem","7.25","stem base ","1",NA,"Lunch","2447","pineapple core vin","5.25","6.53","128","pineapple vin","1.5","12.99","128"
-"4","","30","cilantro","3","stem","0.5",NA,"Dinner","1755","","","","","","","",""
-"5","Oct 24","220","pineapple","99.3","tops, skin, cores","79.7",NA,"Breakfast","1146","pineapple water","1.5","0","16","lime water","10","1.44","16"
-"6","","60","broccoli stem","7.7","stem base","1.1",NA,"Lunch","2153","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"7","","30","cilantro","3.4","stem","0.6",NA,"Dinner","1611","","","","","","","",""
-"8","Oct 25","189","pineapple","85.3","tops, skin, cores","68.4",NA,"Breakfast","1003","pineapple water","1.5","0","16","cuccumber water","10","1.55","16"
-"9","","42","broccoli stem","5.4","stem base","0.7",NA,"Lunch","2314","pineapple vin","5.25","6.53","128","pineapple vin","1.25","12.99","128"
-"10","","60","cilantro","6.7","stem","1.1",NA,"Dinner","1614","pickled veg salad ","2","1.61","16","","","",""
-"11","Oct 26","","pineapple","","","",NA,"Breakfast","1085","pineapple water","1.5","0","16","orange water","10","2.6","16"
-"12","","","broccoli stem","","","",NA,"Lunch","2086","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"13","","","cilantro","","","",NA,"Dinner","1495","","","","","","","",""
-"14","Oct 27","","pineapple","","","",NA,"Breakfast","885","pineapple water","1.5","0","16","lemon water","10","1.42","16"
-"15","","","broccoli stem","","","",NA,"Lunch","2013","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"16","","","cilantro","","","",NA,"Dinner","941","","","","","","","",""
-"17","","","","","","",NA,"","","","","","","","","",""
-"18","Oct 30","","pineapple","","","",NA,"Breakfast","1060","pineapple water","1.5","0","16","orange water","10","2.6","16"
-"19","","","broccoli stem","","","",NA,"Lunch","2290","pineapple vin","5.25","6.53","128","pineapple vin","1.5","12.99","128"
-"20","","","cilantro","","","",NA,"Dinner","1642","","","","","","","",""
-"21","Oct 31","","pineapple","","","",NA,"Breakfast","1111","pineapple water","1.5","0","16","lemon water","10","1.42","16"
-"22","","","broccoli stem","","","",NA,"Lunch","2098","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"23","","","cilantro","","","",NA,"Dinner","1566","","","","","","","",""
-"24","Nov 1","","pineapple","","","",NA,"Breakfast","966","pineapple water","1.5","0","16","lime water","10","1.44","16"
-"25","","","broccoli stem","","","",NA,"Lunch","2447","pineapple vin","5.25","6.53","128","pineapple vin","2","12.99","128"
-"26","","","cilantro","","","",NA,"Dinner","1681","","","","","","","",""
-"27","Nov 2","","pineapple","","","",NA,"Breakfast","1091","pineapple water","1.5","0","16","cuccumber water","10","1.55","16"
-"28","","","broccoli stem","","","",NA,"Lunch","2122","pineapple vin","5.25","6.53","128","pineapple vin","1.25","12.99","128"
-"29","","","cilantro","","","",NA,"Dinner","1513","","","","","","","",""
-"30","Nov 3","","pineapple","","","",NA,"Breakfast","969","pineapple water","1.5","0","16","orange water","10","2.6","16"
-"31","","","broccoli stem","","","",NA,"Lunch","1977","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"32","","","cilantro","","","",NA,"Dinner","938","","","","","","","",""
-"33","","","","","","",NA,"","","","","","","","","",""
-"34","Nov 6","","pineapple","","","",NA,"Breakfast","1014","pineapple water","1.5","0","16","cuccumber water","10","1.55","16"
-"35","","","broccoli stem","","","",NA,"Lunch","2396","pineapple vin","5.25","6.53","128","pineapple vin","1.5","12.99","128"
-"36","","","cilantro","","","",NA,"Dinner","1708","","","","","","","",""
-"37","Nov 7","","pineapple","","","",NA,"Breakfast","1107","pineapple water","1.5","0","16","orange water","10","2.6","16"
-"38","","","broccoli stem","","","",NA,"Lunch","2214","","5.25","6.53","128","pineapple vin","1.5","12.99","128"
-"39","","","cilantro","","","",NA,"Dinner","1796","","","","","","","",""
-"40","Nov 8","","pineapple","","","",NA,"Breakfast","1011","pineapple water","1.5","0","16","lemon water","10","1.42","16"
-"41","","","broccoli stem","","","",NA,"Lunch","2413","","5.25","6.53","128","pineapple vin","1.75","12.99","128"
-"42","","","cilantro","","","",NA,"Dinner","1673","","","","","","","",""
-"43","Nov 9","","pineapple","","","",NA,"Breakfast","1114","pineapple water","1.5","0","16","lime water","10","1.44","16"
-"44","","","broccoli stem","","","",NA,"Lunch","2202","","5.25","6.53","128","pineapple vin","1.25","12.99","128"
-"45","","","cilantro","","","",NA,"Dinner","1534","","","","","","","",""
-"46","Nov 10","","pineapple","","","",NA,"Breakfast","1007","pineapple water","1.5","0","16","cuccumber water","10","1.55","16"
-"47","","","broccoli stem","","","",NA,"Lunch","2115","","5.25","6.53","128","pineapple vin","1","12.99","128"
-"48","","","cilantro","","","",NA,"Dinner","945","","","","","","","",""
-"49","","","","","","",NA,"","","","","","","","","",""
-"50","Nov 13","","pineapple","","","",NA,"Breakfast","949","pineapple water","1.5","0","16","lime water","10","1.44","16"
-"51","","","broccoli stem","","","",NA,"Lunch","2428","pineapple vin","5.25","6.53","128","pineapple vin","2","12.99","128"
-"52","","","cilantro","","","",NA,"Dinner","1736","","","","","","","",""
-"53","Nov14","","pineapple","","","",NA,"Breakfast","1129","pineapple water","1.5","0","16","cuccumber water","10","1.55","16"
-"54","","","broccoli stem","","","",NA,"Lunch","2147","pineapple vin","5.25","6.53","128","pineapple vin","1.5","12.99","128"
-"55","","","cilantro","","","",NA,"Dinner","1652","","","","","","","",""
-"56","Nov15","","pineapple","","","",NA,"Breakfast","998","pineapple water","1.5","0","16","orange water","10","2.6","16"
-"57","","","broccoli stem","","","",NA,"Lunch","2299","pineapple vin","5.25","6.53","128","pineapple vin","1.25","12.99","128"
-"58","","","cilantro","","","",NA,"Dinner","1658","","","","","","","",""
-"59","Nov 16","","pineapple","","","",NA,"Breakfast","1099","pineapple water","1.5","0","16","lemon water","10","1.42","16"
-"60","","","broccoli stem","","","",NA,"Lunch","2102","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"61","","","cilantro","","","",NA,"Dinner","1544","","","","","","","",""
-"62","Nov 17","","pineapple","","","",NA,"Breakfast","916","pineapple water","1.5","0","16","lime water","10","1.44","16"
-"63","","","broccoli stem","","","",NA,"Lunch","2044","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"64","","","cilantro","","","",NA,"Dinner","855","","","","","","","",""
-"65","","","","","","",NA,"","","","","","","","","",""
-"66","Nov 20","","pineapple","","","",NA,"Breakfast","799","pineapple water","1.5","0","16","lemon water","10","1.42","16"
-"67","","","broccoli stem","","","",NA,"Lunch","2032","pineapple vin","5.25","6.53","128","pineapple vin","1","12.99","128"
-"68","","","cilantro","","","",NA,"Dinner","1361","","","","","","","",""
-"69","Nov 21","","pineapple","","","",NA,"Breakfast","731","pineapple water","","0","16","lime water","10","1.44","16"
-"70","","","broccoli stem","","","",NA,"Lunch","1331","pineapple vin","","6.53","128","pineapple vin","0.75","12.99","128"
-"71","","","cilantro","","","",NA,"Dinner","613","","","","","","","",""
-"72","Nov 22","","pineapple","","","",NA,"Breakfast","0","","","","","","","",""
-"73","","","broccoli stem","","","",NA,"Lunch","0","","","","","","","",""
-"74","","","cilantro","","","",NA,"Dinner","0","","","","","","","",""
+"","site","date","prod_vol_purch","prod_type","prod_vol_avail_upcyc","prod_type_unavail_upcyc","prod_vol_unavail_upcyc","meal_period","meal_swipes","recipe_served","prod_vol_in_recipe","recipe_cost","recipe_servings","displaced_recipe","displaced_recipe_vol","displaced_recipe_cost","displaced_recipe_servings"
+"1","boston university","Oct 23",190,"pineapple",85.75,"tops, skin, cores ",68.75,"Breakfast",978,"pineapple water",1.5,0,16,"lemon water",10,1.42,16
+"2","boston university","Oct 23",60,"broccoli stem",7.25,"stem base ",1,"Lunch",2447,"pineapple core vin",5.25,6.53,128,"pineapple vin",1.5,12.99,128
+"3","boston university","Oct 23",30,"cilantro",3,"stem",0.5,"Dinner",1755,"",NA,NA,NA,"",NA,NA,NA
+"4","boston university","Oct 24",220,"pineapple",99.3,"tops, skin, cores",79.7,"Breakfast",1146,"pineapple water",1.5,0,16,"lime water",10,1.44,16
+"5","boston university","Oct 24",60,"broccoli stem",7.7,"stem base",1.1,"Lunch",2153,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"6","boston university","Oct 24",30,"cilantro",3.4,"stem",0.6,"Dinner",1611,"",NA,NA,NA,"",NA,NA,NA
+"7","boston university","Oct 25",189,"pineapple",85.3,"tops, skin, cores",68.4,"Breakfast",1003,"pineapple water",1.5,0,16,"cuccumber water",10,1.55,16
+"8","boston university","Oct 25",42,"broccoli stem",5.4,"stem base",0.7,"Lunch",2314,"pineapple vin",5.25,6.53,128,"pineapple vin",1.25,12.99,128
+"9","boston university","Oct 25",60,"cilantro",6.7,"stem",1.1,"Dinner",1614,"pickled veg salad ",2,1.61,16,"",NA,NA,NA
+"10","boston university","Oct 26",NA,"pineapple",NA,"",NA,"Breakfast",1085,"pineapple water",1.5,0,16,"orange water",10,2.6,16
+"11","boston university","Oct 26",NA,"broccoli stem",NA,"",NA,"Lunch",2086,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"12","boston university","Oct 26",NA,"cilantro",NA,"",NA,"Dinner",1495,"",NA,NA,NA,"",NA,NA,NA
+"13","boston university","Oct 27",NA,"pineapple",NA,"",NA,"Breakfast",885,"pineapple water",1.5,0,16,"lemon water",10,1.42,16
+"14","boston university","Oct 27",NA,"broccoli stem",NA,"",NA,"Lunch",2013,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"15","boston university","Oct 27",NA,"cilantro",NA,"",NA,"Dinner",941,"",NA,NA,NA,"",NA,NA,NA
+"16","boston university","Oct 30",NA,"pineapple",NA,"",NA,"Breakfast",1060,"pineapple water",1.5,0,16,"orange water",10,2.6,16
+"17","boston university","Oct 30",NA,"broccoli stem",NA,"",NA,"Lunch",2290,"pineapple vin",5.25,6.53,128,"pineapple vin",1.5,12.99,128
+"18","boston university","Oct 30",NA,"cilantro",NA,"",NA,"Dinner",1642,"",NA,NA,NA,"",NA,NA,NA
+"19","boston university","Oct 31",NA,"pineapple",NA,"",NA,"Breakfast",1111,"pineapple water",1.5,0,16,"lemon water",10,1.42,16
+"20","boston university","Oct 31",NA,"broccoli stem",NA,"",NA,"Lunch",2098,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"21","boston university","Oct 31",NA,"cilantro",NA,"",NA,"Dinner",1566,"",NA,NA,NA,"",NA,NA,NA
+"22","boston university","Nov 1",NA,"pineapple",NA,"",NA,"Breakfast",966,"pineapple water",1.5,0,16,"lime water",10,1.44,16
+"23","boston university","Nov 1",NA,"broccoli stem",NA,"",NA,"Lunch",2447,"pineapple vin",5.25,6.53,128,"pineapple vin",2,12.99,128
+"24","boston university","Nov 1",NA,"cilantro",NA,"",NA,"Dinner",1681,"",NA,NA,NA,"",NA,NA,NA
+"25","boston university","Nov 2",NA,"pineapple",NA,"",NA,"Breakfast",1091,"pineapple water",1.5,0,16,"cuccumber water",10,1.55,16
+"26","boston university","Nov 2",NA,"broccoli stem",NA,"",NA,"Lunch",2122,"pineapple vin",5.25,6.53,128,"pineapple vin",1.25,12.99,128
+"27","boston university","Nov 2",NA,"cilantro",NA,"",NA,"Dinner",1513,"",NA,NA,NA,"",NA,NA,NA
+"28","boston university","Nov 3",NA,"pineapple",NA,"",NA,"Breakfast",969,"pineapple water",1.5,0,16,"orange water",10,2.6,16
+"29","boston university","Nov 3",NA,"broccoli stem",NA,"",NA,"Lunch",1977,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"30","boston university","Nov 3",NA,"cilantro",NA,"",NA,"Dinner",938,"",NA,NA,NA,"",NA,NA,NA
+"31","boston university","Nov 6",NA,"pineapple",NA,"",NA,"Breakfast",1014,"pineapple water",1.5,0,16,"cuccumber water",10,1.55,16
+"32","boston university","Nov 6",NA,"broccoli stem",NA,"",NA,"Lunch",2396,"pineapple vin",5.25,6.53,128,"pineapple vin",1.5,12.99,128
+"33","boston university","Nov 6",NA,"cilantro",NA,"",NA,"Dinner",1708,"",NA,NA,NA,"",NA,NA,NA
+"34","boston university","Nov 7",NA,"pineapple",NA,"",NA,"Breakfast",1107,"pineapple water",1.5,0,16,"orange water",10,2.6,16
+"35","boston university","Nov 7",NA,"broccoli stem",NA,"",NA,"Lunch",2214,"",5.25,6.53,128,"pineapple vin",1.5,12.99,128
+"36","boston university","Nov 7",NA,"cilantro",NA,"",NA,"Dinner",1796,"",NA,NA,NA,"",NA,NA,NA
+"37","boston university","Nov 8",NA,"pineapple",NA,"",NA,"Breakfast",1011,"pineapple water",1.5,0,16,"lemon water",10,1.42,16
+"38","boston university","Nov 8",NA,"broccoli stem",NA,"",NA,"Lunch",2413,"",5.25,6.53,128,"pineapple vin",1.75,12.99,128
+"39","boston university","Nov 8",NA,"cilantro",NA,"",NA,"Dinner",1673,"",NA,NA,NA,"",NA,NA,NA
+"40","boston university","Nov 9",NA,"pineapple",NA,"",NA,"Breakfast",1114,"pineapple water",1.5,0,16,"lime water",10,1.44,16
+"41","boston university","Nov 9",NA,"broccoli stem",NA,"",NA,"Lunch",2202,"",5.25,6.53,128,"pineapple vin",1.25,12.99,128
+"42","boston university","Nov 9",NA,"cilantro",NA,"",NA,"Dinner",1534,"",NA,NA,NA,"",NA,NA,NA
+"43","boston university","Nov 10",NA,"pineapple",NA,"",NA,"Breakfast",1007,"pineapple water",1.5,0,16,"cuccumber water",10,1.55,16
+"44","boston university","Nov 10",NA,"broccoli stem",NA,"",NA,"Lunch",2115,"",5.25,6.53,128,"pineapple vin",1,12.99,128
+"45","boston university","Nov 10",NA,"cilantro",NA,"",NA,"Dinner",945,"",NA,NA,NA,"",NA,NA,NA
+"46","boston university","Nov 13",NA,"pineapple",NA,"",NA,"Breakfast",949,"pineapple water",1.5,0,16,"lime water",10,1.44,16
+"47","boston university","Nov 13",NA,"broccoli stem",NA,"",NA,"Lunch",2428,"pineapple vin",5.25,6.53,128,"pineapple vin",2,12.99,128
+"48","boston university","Nov 13",NA,"cilantro",NA,"",NA,"Dinner",1736,"",NA,NA,NA,"",NA,NA,NA
+"49","boston university","Nov14",NA,"pineapple",NA,"",NA,"Breakfast",1129,"pineapple water",1.5,0,16,"cuccumber water",10,1.55,16
+"50","boston university","Nov14",NA,"broccoli stem",NA,"",NA,"Lunch",2147,"pineapple vin",5.25,6.53,128,"pineapple vin",1.5,12.99,128
+"51","boston university","Nov14",NA,"cilantro",NA,"",NA,"Dinner",1652,"",NA,NA,NA,"",NA,NA,NA
+"52","boston university","Nov15",NA,"pineapple",NA,"",NA,"Breakfast",998,"pineapple water",1.5,0,16,"orange water",10,2.6,16
+"53","boston university","Nov15",NA,"broccoli stem",NA,"",NA,"Lunch",2299,"pineapple vin",5.25,6.53,128,"pineapple vin",1.25,12.99,128
+"54","boston university","Nov15",NA,"cilantro",NA,"",NA,"Dinner",1658,"",NA,NA,NA,"",NA,NA,NA
+"55","boston university","Nov 16",NA,"pineapple",NA,"",NA,"Breakfast",1099,"pineapple water",1.5,0,16,"lemon water",10,1.42,16
+"56","boston university","Nov 16",NA,"broccoli stem",NA,"",NA,"Lunch",2102,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"57","boston university","Nov 16",NA,"cilantro",NA,"",NA,"Dinner",1544,"",NA,NA,NA,"",NA,NA,NA
+"58","boston university","Nov 17",NA,"pineapple",NA,"",NA,"Breakfast",916,"pineapple water",1.5,0,16,"lime water",10,1.44,16
+"59","boston university","Nov 17",NA,"broccoli stem",NA,"",NA,"Lunch",2044,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"60","boston university","Nov 17",NA,"cilantro",NA,"",NA,"Dinner",855,"",NA,NA,NA,"",NA,NA,NA
+"61","boston university","Nov 20",NA,"pineapple",NA,"",NA,"Breakfast",799,"pineapple water",1.5,0,16,"lemon water",10,1.42,16
+"62","boston university","Nov 20",NA,"broccoli stem",NA,"",NA,"Lunch",2032,"pineapple vin",5.25,6.53,128,"pineapple vin",1,12.99,128
+"63","boston university","Nov 20",NA,"cilantro",NA,"",NA,"Dinner",1361,"",NA,NA,NA,"",NA,NA,NA
+"64","boston university","Nov 21",NA,"pineapple",NA,"",NA,"Breakfast",731,"pineapple water",NA,0,16,"lime water",10,1.44,16
+"65","boston university","Nov 21",NA,"broccoli stem",NA,"",NA,"Lunch",1331,"pineapple vin",NA,6.53,128,"pineapple vin",0.75,12.99,128
+"66","boston university","Nov 21",NA,"cilantro",NA,"",NA,"Dinner",613,"",NA,NA,NA,"",NA,NA,NA
+"67","boston university","Nov 22",NA,"pineapple",NA,"",NA,"Breakfast",0,"",NA,NA,NA,"",NA,NA,NA
+"68","boston university","Nov 22",NA,"broccoli stem",NA,"",NA,"Lunch",0,"",NA,NA,NA,"",NA,NA,NA
+"69","boston university","Nov 22",NA,"cilantro",NA,"",NA,"Dinner",0,"",NA,NA,NA,"",NA,NA,NA
+"70","culinary institute of america","Oct 23",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","culinary institute of america","Oct 23",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","culinary institute of america","Oct 23",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","culinary institute of america","Oct 24",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","culinary institute of america","Oct 24",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","culinary institute of america","Oct 24",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","culinary institute of america","Oct 25",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","culinary institute of america","Oct 25",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","culinary institute of america","Oct 25",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","culinary institute of america","Oct 26",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","culinary institute of america","Oct 26",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","culinary institute of america","Oct 26",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82","culinary institute of america","Oct 27",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","culinary institute of america","Oct 27",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","culinary institute of america","Oct 27",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","culinary institute of america","Oct 30",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"86","culinary institute of america","Oct 30",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87","culinary institute of america","Oct 30",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"88","culinary institute of america","Oct 31",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","culinary institute of america","Oct 31",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","culinary institute of america","Oct 31",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91","culinary institute of america","Nov 1",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","culinary institute of america","Nov 1",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"93","culinary institute of america","Nov 1",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","culinary institute of america","Nov 2",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","culinary institute of america","Nov 2",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96","culinary institute of america","Nov 2",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","culinary institute of america","Nov 3",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","culinary institute of america","Nov 3",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","culinary institute of america","Nov 3",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100","culinary institute of america","Nov 6",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"101","culinary institute of america","Nov 6",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"102","culinary institute of america","Nov 6",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"103","culinary institute of america","Nov 7",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"104","culinary institute of america","Nov 7",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","culinary institute of america","Nov 7",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"106","culinary institute of america","Nov 8",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","culinary institute of america","Nov 8",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","culinary institute of america","Nov 8",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"109","culinary institute of america","Nov 9",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","culinary institute of america","Nov 9",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"111","culinary institute of america","Nov 9",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112","culinary institute of america","Nov 10",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","culinary institute of america","Nov 10",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114","culinary institute of america","Nov 10",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","culinary institute of america","Nov 13",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","culinary institute of america","Nov 13",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117","culinary institute of america","Nov 13",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","culinary institute of america","Nov14",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","culinary institute of america","Nov14",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","culinary institute of america","Nov14",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","culinary institute of america","Nov15",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","culinary institute of america","Nov15",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","culinary institute of america","Nov15",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","culinary institute of america","Nov 16",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","culinary institute of america","Nov 16",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","culinary institute of america","Nov 16",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","culinary institute of america","Nov 17",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"128","culinary institute of america","Nov 17",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129","culinary institute of america","Nov 17",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130","culinary institute of america","Nov 20",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131","culinary institute of america","Nov 20",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","culinary institute of america","Nov 20",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133","culinary institute of america","Nov 21",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","culinary institute of america","Nov 21",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135","culinary institute of america","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"136","culinary institute of america","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"137","culinary institute of america","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","culinary institute of america","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","san jose state university","Oct 23",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"140","san jose state university","Oct 23",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,"",NA,NA,NA
+"141","san jose state university","Oct 23",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"142","san jose state university","Oct 24",NA,"Yellow Pumpkin",NA,"Stem",NA,"Breakfast",750,"",NA,NA,NA,"",NA,NA,NA
+"143","san jose state university","Oct 24",NA,"",NA,"Slime",NA,"Lunch ",1500,"Pumpkin Chowder",NA,25.82,25,"N/A",NA,NA,NA
+"144","san jose state university","Oct 24",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"145","san jose state university","Oct 25",NA,"",NA,"Stem ",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"146","san jose state university","Oct 25",NA,"Figleaf Squash (from SJSU Garden)",NA,"Slime",NA,"Lunch ",NA,"Chilacayote Jam",NA,NA,NA,"",NA,NA,NA
+"147","san jose state university","Oct 25",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"148","san jose state university","Oct 26",NA,"Over Riped Watermelon",NA,"Rinds ",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"149","san jose state university","Oct 26",NA,"",NA,"",NA,"Lunch ",1500,"Watermelon Agua Fresca",NA,7,0.87,"",NA,NA,NA
+"150","san jose state university","Oct 26",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"151","san jose state university","Oct 27",NA,"Pumpkins",NA,"Stem ",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"152","san jose state university","Oct 27",NA,"",NA,"Slime",NA,"Lunch ",1500,"Mashed Pumpkin",NA,13.98,0.63,"",NA,NA,NA
+"153","san jose state university","Oct 27",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"154","san jose state university","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"155","san jose state university","Oct 30",NA,"Kabocha Squash",NA,"Seeds",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"156","san jose state university","Oct 30",NA,"",NA,"Slime",NA,"Lunch ",1500,"Candied/Roasted Kobocha Squash ",NA,11.41,0.24,"",NA,NA,NA
+"157","san jose state university","Oct 30",NA,"",NA,"Stem",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"158","san jose state university","Oct 31",NA,"Stewed Black Beans",NA,"N/A",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"159","san jose state university","Oct 31",NA,"",NA,"",NA,"Lunch ",1500,"Stewed Black Beans ",NA,11.61,0.13,"",NA,NA,NA
+"160","san jose state university","Oct 31",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"161","san jose state university","Nov 1",NA,"Chicken Tinga",NA,"N/A",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"162","san jose state university","Nov 1",NA,"",NA,"",NA,"Lunch ",1500,"Chicken Tinga",NA,12.38,0.59,"",NA,NA,NA
+"163","san jose state university","Nov 1",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"164","san jose state university","Nov 2",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"165","san jose state university","Nov 2",NA,"Vegan Sausages",NA,"N/A",NA,"Lunch ",1500,"Vegan Sausage bake",NA,24.08,0.73,"",NA,NA,NA
+"166","san jose state university","Nov 2",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"167","san jose state university","Nov 3",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"168","san jose state university","Nov 3",NA,"tomatos/ peppers",NA,"stems",NA,"Lunch ",1500,"Salsa",NA,5.96,0.05,"",NA,NA,NA
+"169","san jose state university","Nov 3",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"170","san jose state university","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"171","san jose state university","Nov 6",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"172","san jose state university","Nov 6",NA,"eggs (from the breakfast)",NA,"-",NA,"Lunch ",1500,"vegetable fried rice ",NA,3.98,0.33,"",NA,NA,NA
+"173","san jose state university","Nov 6",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"174","san jose state university","Nov 7",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"175","san jose state university","Nov 7",NA,"Marinara Sause",NA,"N/A",NA,"Lunch ",1500,"With vegetables/ vegetable bake",NA,16,0.32,"",NA,NA,NA
+"176","san jose state university","Nov 7",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"177","san jose state university","Nov 8",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"178","san jose state university","Nov 8",NA,"Kabucha Squash ",NA,"slime",NA,"Lunch ",1500,"candied/roasted squash",NA,11.41,0.24,"",NA,NA,NA
+"179","san jose state university","Nov 8",NA,"",NA,"seeds",NA,"Dinner ",1500,"From Holloween ",NA,NA,NA,"",NA,NA,NA
+"180","san jose state university","Nov 9",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"181","san jose state university","Nov 9",NA,"Bananas",NA,"10 lbs",NA,"Lunch ",1500,"banana bread ",NA,1.14,0.14,"",NA,NA,NA
+"182","san jose state university","Nov 9",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"183","san jose state university","Nov 10",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"184","san jose state university","Nov 10",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,"",NA,NA,NA
+"185","san jose state university","Nov 10",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"186","san jose state university","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"187","san jose state university","Nov 13",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"188","san jose state university","Nov 13",NA,"Impossible Meatballs",NA,"-",NA,"Lunch ",1500,"Impossible Bolognese ",NA,13.33,1.11,"",NA,NA,NA
+"189","san jose state university","Nov 13",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"190","san jose state university","Nov14",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"191","san jose state university","Nov14",NA,"Rosemarry Fococcia ",NA,"-",NA,"Lunch ",1500,"Stuffing ",NA,11.94,0.18,"",NA,NA,NA
+"192","san jose state university","Nov14",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"193","san jose state university","Nov15",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"194","san jose state university","Nov15",NA,"Tofu (from ROOTED staition)",NA,"-",NA,"Lunch ",1500,"Drunken Noodles with Tofu",NA,13.91,1.39,"",NA,NA,NA
+"195","san jose state university","Nov15",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"196","san jose state university","Nov 16",NA,"",NA,"seeds",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"197","san jose state university","Nov 16",NA,"Pumpkin (from decorations)",NA,"slime",NA,"Lunch ",1500,"Pumpkin Pie",NA,13.2,0.55,"",NA,NA,NA
+"198","san jose state university","Nov 16",NA,"",NA,"skin",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"199","san jose state university","Nov 17",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"200","san jose state university","Nov 17",NA,"cilantro and mint",NA,"stems ",NA,"Lunch ",1500,"Chutney",NA,0.43,0.01,"",NA,NA,NA
+"201","san jose state university","Nov 17",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"202","san jose state university","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"203","san jose state university","Nov 20",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"204","san jose state university","Nov 20",NA,"Napa Cabbage ",NA,"stem ",NA,"Lunch ",1500,"Stir-fry Vegetables ",NA,6.59,0.66,"",NA,NA,NA
+"205","san jose state university","Nov 20",NA,"",NA,"",NA,"Dinner ",1500,"",NA,NA,NA,"",NA,NA,NA
+"206","san jose state university","Nov 21",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"207","san jose state university","Nov 21",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,"",NA,NA,NA
+"208","san jose state university","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"209","san jose state university","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"210","san jose state university","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,"",NA,NA,NA
+"211","san jose state university","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"212","stanford university","Oct 23",225,"Protein (Chicken)",NA,"N/A",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"213","stanford university","Oct 23",NA,"",NA,"",NA,"Lunch ",NA,"",28.8,NA,250,NA,NA,NA,NA
+"214","stanford university","Oct 23",NA,"Vegtable Peels ",12.4,"N/A",NA,"Dinner ",NA,"Pho Broth/Sliced Meat",12.4,NA,NA,NA,NA,NA,NA
+"215","stanford university","Oct 24",225,"Protein (Chicken)",NA,"N/A",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"216","stanford university","Oct 24",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"217","stanford university","Oct 24",NA,"",NA,"",NA,"Dinner ",NA,"Pho Broth/Sliced Meat",37.4,NA,330,NA,NA,NA,NA
+"218","stanford university","Oct 25",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"219","stanford university","Oct 25",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"220","stanford university","Oct 25",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"221","stanford university","Oct 26",100,"Rice",86.5,"N/A",NA,"Breakfast",NA,"Lugaw ",86.5,NA,173,NA,NA,NA,NA
+"222","stanford university","Oct 26",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"223","stanford university","Oct 26",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"224","stanford university","Oct 27",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"225","stanford university","Oct 27",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"226","stanford university","Oct 27",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"227","stanford university","Oct 30",300,"Protein Beef ",134,"N/A",NA,"Breakfast",NA,"Beef Japanese Curry",134,NA,357,NA,NA,NA,NA
+"228","stanford university","Oct 30",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"229","stanford university","Oct 30",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"230","stanford university","Oct 31",100,"Rice",36.8,"N/A",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"231","stanford university","Oct 31",NA,"",NA,"",NA,"Lunch ",NA,"Lugaw",36.8,NA,73,NA,NA,NA,NA
+"232","stanford university","Oct 31",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"233","stanford university","Nov 1",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"234","stanford university","Nov 1",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"235","stanford university","Nov 1",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"236","stanford university","Nov 2",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"237","stanford university","Nov 2",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"238","stanford university","Nov 2",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"239","stanford university","Nov 3",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"240","stanford university","Nov 3",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"241","stanford university","Nov 3",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"242","stanford university","Nov 5",100,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"243","stanford university","Nov 5",NA,"Beans",36.6,"",NA,"Lunch ",NA,"Black Bean salad",36.6,NA,146,NA,NA,NA,NA
+"244","stanford university","Nov 5",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"245","stanford university","Nov 7",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"246","stanford university","Nov 7",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"247","stanford university","Nov 7",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"248","stanford university","Nov 8",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"249","stanford university","Nov 8",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"250","stanford university","Nov 8",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"251","stanford university","Nov 9",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"252","stanford university","Nov 9",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"253","stanford university","Nov 9",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"254","stanford university","Nov 10",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"255","stanford university","Nov 10",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"256","stanford university","Nov 10",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"257","stanford university","Nov 13",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"258","stanford university","Nov 13",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"259","stanford university","Nov 13",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"260","stanford university","Nov14",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"261","stanford university","Nov14",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"262","stanford university","Nov14",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"263","stanford university","Nov15",250,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"264","stanford university","Nov15",NA,"Pork",28.6,"",NA,"Lunch ",NA,"Pork Fried Rice",28.6,NA,76,NA,NA,NA,NA
+"265","stanford university","Nov15",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"266","stanford university","Nov 16",120,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"267","stanford university","Nov 16",NA,"rice ",56.7,"",NA,"Lunch ",NA,"Lugaw",56.7,NA,141,NA,NA,NA,NA
+"268","stanford university","Nov 16",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"269","stanford university","Nov 17",100,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"270","stanford university","Nov 17",NA,"Beans ",87.5,"",NA,"Lunch ",NA,"Black Bean salad",87.5,NA,262,NA,NA,NA,NA
+"271","stanford university","Nov 17",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"272","stanford university","Nov 20",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"273","stanford university","Nov 20",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"274","stanford university","Nov 20",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"275","stanford university","Nov 21",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"276","stanford university","Nov 21",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"277","stanford university","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"278","stanford university","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"279","stanford university","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"280","stanford university","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"281","university of bristol","Oct 23",NA,"Broccoli",NA,"Woody stalk base",NA,"Breakfast",182,"Broccoli gratin",NA,NA,NA,NA,NA,NA,NA
+"282","university of bristol","Oct 23",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"283","university of bristol","Oct 23",NA,"",NA,"",NA,"Dinner ",276,"",NA,NA,NA,NA,NA,NA,NA
+"284","university of bristol","Oct 24",NA,"Carrots",NA,"Tops",NA,"Breakfast",179,"Slaw",NA,NA,NA,NA,NA,NA,NA
+"285","university of bristol","Oct 24",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"286","university of bristol","Oct 24",NA,"",NA,"",NA,"Dinner ",279,"",NA,NA,NA,NA,NA,NA,NA
+"287","university of bristol","Oct 25",NA,"Swede",NA,"Skin",NA,"Breakfast",173,"n/a",NA,NA,NA,NA,NA,NA,NA
+"288","university of bristol","Oct 25",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"289","university of bristol","Oct 25",NA,"",NA,"",NA,"Dinner ",280,"",NA,NA,NA,NA,NA,NA,NA
+"290","university of bristol","Oct 26",NA,"Cauliflower",NA,"Woody stalk base",NA,"Breakfast",117,"Cauliflower gratin",NA,NA,NA,NA,NA,NA,NA
+"291","university of bristol","Oct 26",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"292","university of bristol","Oct 26",NA,"",NA,"",NA,"Dinner ",274,"",NA,NA,NA,NA,NA,NA,NA
+"293","university of bristol","Oct 27",NA,"Red cabbage",NA,"Root",NA,"Breakfast",137,"Slaw",NA,NA,NA,NA,NA,NA,NA
+"294","university of bristol","Oct 27",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"295","university of bristol","Oct 27",NA,"",NA,"",NA,"Dinner ",244,"",NA,NA,NA,NA,NA,NA,NA
+"296","university of bristol","Oct 30",NA,"peppers",NA,"Stalk, Pith and seeds",NA,"Breakfast",175,"n/a",NA,NA,NA,NA,NA,NA,NA
+"297","university of bristol","Oct 30",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"298","university of bristol","Oct 30",NA,"",NA,"",NA,"Dinner ",249,"",NA,NA,NA,NA,NA,NA,NA
+"299","university of bristol","Oct 31",NA,"Broccoli",NA,"Woody stalk base",NA,"Breakfast",136,"Pickled broccoli",NA,NA,NA,NA,NA,NA,NA
+"300","university of bristol","Oct 31",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"301","university of bristol","Oct 31",NA,"",NA,"",NA,"Dinner ",245,"",NA,NA,NA,NA,NA,NA,NA
+"302","university of bristol","Nov 1",NA,"Swede",NA,"Skin",NA,"Breakfast",170,"n/a",NA,NA,NA,NA,NA,NA,NA
+"303","university of bristol","Nov 1",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"304","university of bristol","Nov 1",NA,"",NA,"",NA,"Dinner ",251,"",NA,NA,NA,NA,NA,NA,NA
+"305","university of bristol","Nov 2",NA,"Carrots",NA,"Tops",NA,"Breakfast",129,"Stock",NA,NA,NA,NA,NA,NA,NA
+"306","university of bristol","Nov 2",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"307","university of bristol","Nov 2",NA,"",NA,"",NA,"Dinner ",233,"",NA,NA,NA,NA,NA,NA,NA
+"308","university of bristol","Nov 3",NA,"Squash",NA,"Stalk, slime, blossom end",NA,"Breakfast",157,"Roast squash gnudi",NA,NA,NA,NA,NA,NA,NA
+"309","university of bristol","Nov 3",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"310","university of bristol","Nov 3",NA,"",NA,"",NA,"Dinner ",237,"",NA,NA,NA,NA,NA,NA,NA
+"311","university of bristol","Nov 6",NA,"Broccoli",NA,"Woody stalk base",NA,"Breakfast",107,"Remoulade",NA,NA,NA,NA,NA,NA,NA
+"312","university of bristol","Nov 6",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"313","university of bristol","Nov 6",NA,"",NA,"",NA,"Dinner ",139,"",NA,NA,NA,NA,NA,NA,NA
+"314","university of bristol","Nov 7",NA,"Carrots",NA,"Tops",NA,"Breakfast",106,"slaw",NA,NA,NA,NA,NA,NA,NA
+"315","university of bristol","Nov 7",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"316","university of bristol","Nov 7",NA,"",NA,"",NA,"Dinner ",155,"",NA,NA,NA,NA,NA,NA,NA
+"317","university of bristol","Nov 8",NA,"Cauliflower",NA,"Woody stalk base",NA,"Breakfast",67,"Cauliflower bhaji",NA,NA,NA,NA,NA,NA,NA
+"318","university of bristol","Nov 8",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"319","university of bristol","Nov 8",NA,"",NA,"",NA,"Dinner ",98,"",NA,NA,NA,NA,NA,NA,NA
+"320","university of bristol","Nov 9",NA,"Broccoli",NA,"Woody stalk base",NA,"Breakfast",83,"Broccoli gratin",NA,NA,NA,NA,NA,NA,NA
+"321","university of bristol","Nov 9",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"322","university of bristol","Nov 9",NA,"",NA,"",NA,"Dinner ",102,"",NA,NA,NA,NA,NA,NA,NA
+"323","university of bristol","Nov 10",NA,"Sprouts",NA,"Woody stalk base",NA,"Breakfast",75,"n/a",NA,NA,NA,NA,NA,NA,NA
+"324","university of bristol","Nov 10",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"325","university of bristol","Nov 10",NA,"",NA,"",NA,"Dinner ",75,"",NA,NA,NA,NA,NA,NA,NA
+"326","university of bristol","Nov 13",NA,"Carrots",NA,"Tops",NA,"Breakfast",178,"Stock",NA,NA,NA,NA,NA,NA,NA
+"327","university of bristol","Nov 13",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"328","university of bristol","Nov 13",NA,"",NA,"",NA,"Dinner ",281,"",NA,NA,NA,NA,NA,NA,NA
+"329","university of bristol","Nov14",NA,"Kale",NA,"Stalk base",NA,"Breakfast",158,"Kale and pumpkin seed pesto",NA,NA,NA,NA,NA,NA,NA
+"330","university of bristol","Nov14",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"331","university of bristol","Nov14",NA,"",NA,"",NA,"Dinner ",266,"",NA,NA,NA,NA,NA,NA,NA
+"332","university of bristol","Nov15",NA,"Red cabbage",NA,"Heart",NA,"Breakfast",167,"Slaw",NA,NA,NA,NA,NA,NA,NA
+"333","university of bristol","Nov15",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"334","university of bristol","Nov15",NA,"",NA,"",NA,"Dinner ",263,"",NA,NA,NA,NA,NA,NA,NA
+"335","university of bristol","Nov 16",NA,"Broccoli",NA,"Woody stalk base",NA,"Breakfast",151,"Remoulade",NA,NA,NA,NA,NA,NA,NA
+"336","university of bristol","Nov 16",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"337","university of bristol","Nov 16",NA,"",NA,"",NA,"Dinner ",262,"",NA,NA,NA,NA,NA,NA,NA
+"338","university of bristol","Nov 17",NA,"Squash",NA,"Stalk, slime, blossom end",NA,"Breakfast",141,"Roast squash harrissa and pomegrante salad",NA,NA,NA,NA,NA,NA,NA
+"339","university of bristol","Nov 17",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"340","university of bristol","Nov 17",NA,"",NA,"",NA,"Dinner ",222,"",NA,NA,NA,NA,NA,NA,NA
+"341","university of bristol","Nov 20",NA,"Broccoli",NA,"Woody stalk base",NA,"Breakfast",179,"Broccoli soup",NA,NA,NA,NA,NA,NA,NA
+"342","university of bristol","Nov 20",NA,"",NA,"Damaged outer leaves",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"343","university of bristol","Nov 20",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"344","university of bristol","Nov 21",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"345","university of bristol","Nov 21",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"346","university of bristol","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"347","university of bristol","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"348","university of bristol","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"349","university of bristol","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"350","university of california los angeles","Oct 30",NA,"",NA,"",NA,"Breakfast",1688,"Bruin Scramble",78,0.684,312,"Breakfast Taco",62.5,0.602,250
+"351","university of california los angeles","Oct 30",NA,"",NA,"",NA,"Lunch ",2544,"Hominy in Pork Gravy",64,0.849,256,"Pork Pozole",52,0.939,205
+"352","university of california los angeles","Oct 30",NA,"",NA,"",NA,"Drey (To go Location)",1041,"Impossible California Burrito",50,1.06,200,"Impossible Tan Tan Ramen",40,1.68,160
+"353","university of california los angeles","Oct 30",NA,"",NA,"",NA,"Dinner ",2660,"Achiote Beef Brisket",35,0.936,140," Texas BBQ Brisket",14,1.234,56
+"354","university of california los angeles","Oct 31",NA,"",NA,"",NA,"Breakfast",1421,"Scramble Egg",94.75,0.46,378,"Southern Style Bruin Scramble",75.5,0.56,302
+"355","university of california los angeles","Oct 31",NA,"",NA,"",NA,"Lunch ",2293,"BBQ Chicken Drumsticks",126.75,0.475,507,"Grilled Honey Lemon Chicken Drumsticks",101.5,0.765,406
+"356","university of california los angeles","Oct 31",NA,"",NA,"",NA,"Drey (To go Location)",981,"Beef Bulgogi",122.5,2.44,245,"Bulgogi Bento",261,2.53,196
+"357","university of california los angeles","Oct 31",NA,"",NA,"",NA,"Dinner ",3493,"Chiipotle BBQ Ribs",26.75,0.88,107,"Kansas City Pork Ribs",19,1.41,75
+"358","university of california los angeles","Nov 1",NA,"",NA,"",NA,"Breakfast",1665,"Huevos con Chorizo y Papas",33.75,0.5,135,"Scramble Eggs",24,0.46,95
+"359","university of california los angeles","Nov 1",NA,"",NA,"",NA,"Lunch ",2383,"Loaded Mac N Cheese",54.25,NA,217,"Mac N Cheese Burger",44,NA,174
+"360","university of california los angeles","Nov 1",NA,"",NA,"",NA,"Drey (To go Location)",1049,"",131,NA,262,"",105,NA,210
+"361","university of california los angeles","Nov 1",NA,"",NA,"",NA,"Dinner ",2719,"Diced Pineapple at Flex Bar",95.25,NA,381,"Spicy Pineapple Salsa",77,NA,305
+"362","university of california los angeles","Nov 2",NA,"",NA,"",NA,"Breakfast",1712,"",47,NA,188,"",33,NA,132
+"363","university of california los angeles","Nov 2",NA,"",NA,"",NA,"Lunch ",2387,"Coconut Rice w/ Pantains",28.25,NA,113,"Caribbean Tofu & Coconut Rice Bowl",20,NA,79
+"364","university of california los angeles","Nov 2",NA,"",NA,"",NA,"Drey (To go Location)",930,"",116,NA,232,"",93,NA,186
+"365","university of california los angeles","Nov 2",NA,"",NA,"",NA,"Dinner ",2660,"Southen Succotash",35,NA,140,"Corn & Lima Bean Succotash",28,NA,112
+"366","university of california los angeles","Nov 3",NA,"",NA,"",NA,"Breakfast",1507,"",73.25,NA,293,"",48,NA,191
+"367","university of california los angeles","Nov 3",NA,"",NA,"",NA,"Lunch ",2182,"Quinoa & Almond Salad",79.5,NA,318,"Quinoa Pilaf",56,NA,223
+"368","university of california los angeles","Nov 3",NA,"",NA,"",NA,"Drey (To go Location)",836,"",104.5,NA,209,"",84,NA,167
+"369","university of california los angeles","Nov 3",NA,"",NA,"",NA,"Dinner ",3573,"",6.75,NA,27,"",5,NA,19
+"370","university of california los angeles","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"371","university of california los angeles","Nov 6",NA,"",NA,"",NA,"Breakfast",1860,"",10,NA,40,"",8,NA,32
+"372","university of california los angeles","Nov 6",NA,"",NA,"",NA,"Lunch ",2377,"",30.75,NA,123,"",22,NA,86
+"373","university of california los angeles","Nov 6",NA,"",NA,"",NA,"Drey (To go Location)",1029,"",128.5,NA,257,"",90,NA,180
+"374","university of california los angeles","Nov 6",NA,"",NA,"",NA,"Dinner ",2993,"",76.75,NA,307,"",61.5,NA,246
+"375","university of california los angeles","Nov 7",NA,"",NA,"",NA,"Breakfast",1942,"",2,NA,8,"",2,NA,6
+"376","university of california los angeles","Nov 7",NA,"",NA,"",NA,"Lunch ",2429,"",17.75,NA,71,"",12.5,NA,50
+"377","university of california los angeles","Nov 7",NA,"",NA,"",NA,"Drey (To go Location)",998,"",125,NA,250,"",100,NA,200
+"378","university of california los angeles","Nov 7",NA,"",NA,"",NA,"Dinner ",3072,"",32,NA,128,"",25.5,NA,102
+"379","university of california los angeles","Nov 8",NA,"",NA,"",NA,"Breakfast",1906,"",23.5,NA,94,"",18.75,NA,75
+"380","university of california los angeles","Nov 8",NA,"",NA,"",NA,"Lunch ",2341,"",39.75,NA,159,"",27.75,NA,111
+"381","university of california los angeles","Nov 8",NA,"",NA,"",NA,"Drey (To go Location)",999,"",125,NA,250,"",100,NA,200
+"382","university of california los angeles","Nov 8",NA,"",NA,"",NA,"Dinner ",3130,"Quinoa Pilaf",5,NA,20,"Cajun Shrimp & Quinoa Casserole",4,NA,16
+"383","university of california los angeles","Nov 9",NA,"",NA,"",NA,"Breakfast",1783,"",54.25,NA,217,"",38,NA,152
+"384","university of california los angeles","Nov 9",NA,"",NA,"",NA,"Lunch ",2400,"",25,NA,100,"",20,NA,80
+"385","university of california los angeles","Nov 9",NA,"",NA,"",NA,"Drey (To go Location)",926,"",116,NA,232,"",93,NA,186
+"386","university of california los angeles","Nov 9",NA,"",NA,"",NA,"Dinner ",2436,"",116,NA,464,"",92.75,NA,371
+"387","university of california los angeles","Nov 10",NA,"",NA,"",NA,"Breakfast",1052,"",112,NA,448,"",89.5,NA,358
+"388","university of california los angeles","Nov 10",NA,"",NA,"",NA,"Lunch ",2642,"",14.5,NA,58,"",11.5,NA,46
+"389","university of california los angeles","Nov 10",NA,"",NA,"",NA,"Drey (To go Location)",886,"",111,NA,222,"",77.5,NA,155
+"390","university of california los angeles","Nov 10",NA,"",NA,"",NA,"Dinner ",2890,"",2.5,NA,10,"",2,NA,8
+"391","university of california los angeles","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"392","university of california los angeles","Nov 13",NA,"",NA,"",NA,"Breakfast",1642,"",14.5,NA,58,"",11.5,NA,46
+"393","university of california los angeles","Nov 13",NA,"",NA,"",NA,"Lunch ",2277,"",55.75,NA,223,"",39,NA,156
+"394","university of california los angeles","Nov 13",NA,"",NA,"",NA,"Drey (To go Location)",1121,"",140,NA,280,"",112,NA,224
+"395","university of california los angeles","Nov 13",NA,"",NA,"",NA,"Dinner ",2938,"",15.5,NA,62,"",12.5,NA,50
+"396","university of california los angeles","Nov 14",NA,"",NA,"",NA,"Breakfast",1807,"",10.75,NA,43,"",7.5,NA,30
+"397","university of california los angeles","Nov 14",NA,"",NA,"",NA,"Lunch ",2446,"Quinoa Pilaf",38.5,NA,154,"Tikka Masala Kabocha Quinoa Salad",30.75,NA,123
+"398","university of california los angeles","Nov 14",NA,"",NA,"",NA,"Drey (To go Location)",1142,"",143,NA,286,"",114.5,NA,229
+"399","university of california los angeles","Nov 14",NA,"",NA,"",NA,"Dinner ",2945,"",13.75,NA,55,"",9.75,NA,39
+"400","university of california los angeles","Nov 15",NA,"",NA,"",NA,"Breakfast",1745,"",38.75,NA,155,"",27.25,NA,109
+"401","university of california los angeles","Nov 15",NA,"",NA,"",NA,"Lunch ",2539,"",15.25,NA,61,"",10.75,NA,43
+"402","university of california los angeles","Nov 15",NA,"",NA,"",NA,"Drey (To go Location)",1120,"",140,NA,280,"",112,NA,224
+"403","university of california los angeles","Nov 15",NA,"",NA,"",NA,"Dinner ",2727,"",68.25,NA,273,"",47.75,NA,191
+"404","university of california los angeles","Nov 16",NA,"",NA,"",NA,"Breakfast",1601,"",49.75,NA,199,"",39.75,NA,159
+"405","university of california los angeles","Nov 16",NA,"",NA,"",NA,"Lunch ",2432,"",42,NA,168,"",33.5,NA,134
+"406","university of california los angeles","Nov 16",NA,"",NA,"",NA,"Drey (To go Location)",1080,"",135,NA,270,"",108,NA,216
+"407","university of california los angeles","Nov 16",NA,"",NA,"",NA,"Dinner ",2520,"",57.5,NA,230,"",46,NA,184
+"408","university of california los angeles","Nov 17",NA,"",NA,"",NA,"Breakfast",1523,"",31.75,NA,127,"",25.5,NA,102
+"409","university of california los angeles","Nov 17",NA,"",NA,"",NA,"Lunch ",2379,"",30.25,NA,121,"",24.5,NA,98
+"410","university of california los angeles","Nov 17",NA,"",NA,"",NA,"Drey (To go Location)",928,"",115.5,NA,231,"",92.5,NA,185
+"411","university of california los angeles","Nov 17",NA,"",NA,"",NA,"Dinner ",3381,"",4.75,NA,19,"",3.75,NA,15
+"412","university of california los angeles","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"413","university of california los angeles","Nov 20",NA,"",NA,"",NA,"Breakfast",1712,"",9.5,NA,38,"",6.75,NA,27
+"414","university of california los angeles","Nov 20",NA,"",NA,"",NA,"Lunch ",2263,"",34.25,NA,137,"",27.5,NA,110
+"415","university of california los angeles","Nov 20",NA,"",NA,"",NA,"Drey (To go Location)",1103,"",138,NA,276,"",110.5,NA,221
+"416","university of california los angeles","Nov 20",NA,"",NA,"",NA,"Dinner ",2682,"",79.5,NA,318,"",63.5,NA,254
+"417","university of california los angeles","Nov 21",NA,"",NA,"",NA,"Breakfast",1522,"",47,NA,188,"",33,NA,132
+"418","university of california los angeles","Nov 21",NA,"",NA,"",NA,"Lunch ",2296,"",13.5,NA,54,"",10.75,NA,43
+"419","university of california los angeles","Nov 21",NA,"",NA,"",NA,"Drey (To go Location)",963,"",120.5,NA,241,"",96.5,NA,193
+"420","university of california los angeles","Nov 21",NA,"",NA,"",NA,"Dinner ",1985,"",53.75,NA,215,"",43,NA,172
+"421","university of california los angeles","Nov 22",NA,"",NA,"",NA,"Breakfast",1006,"",48.5,NA,194,"",38.75,NA,155
+"422","university of california los angeles","Nov 22",NA,"",NA,"",NA,"Lunch ",1628,"",43,NA,172,"",30,NA,120
+"423","university of california los angeles","Nov 22",NA,"",NA,"",NA,"Drey (To go Location)",NA,"",NA,NA,NA,"",NA,NA,NA
+"424","university of california los angeles","Nov 22",NA,"",NA,"",NA,"Dinner ",719,"",120.25,NA,481,"",96.25,NA,385
+"425","university of california los angeles","Nov 23",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"426","university of california los angeles","Nov 23",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,"",NA,NA,NA
+"427","university of california los angeles","Nov 23",NA,"",NA,"",NA,"Drey (To go Location)",NA,"",NA,NA,NA,"",NA,NA,NA
+"428","university of california los angeles","Nov 23",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"429","university of california los angeles","Nov 24",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,"",NA,NA,NA
+"430","university of california los angeles","Nov 24",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,"",NA,NA,NA
+"431","university of california los angeles","Nov 24",NA,"",NA,"",NA,"Drey (To go Location)",NA,"",NA,NA,NA,"",NA,NA,NA
+"432","university of california los angeles","Nov 24",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,"",NA,NA,NA
+"433","university of california los angeles","",NA,"",NA,"",NA,"",NA,"",NA,NA,NA,"",NA,NA,NA
+"434","university of california los angeles","Nov 27",NA,"",NA,"",NA,"Breakfast",1563,"",59.25,NA,237,"",41.5,NA,166
+"435","university of california los angeles","Nov 27",NA,"",NA,"",NA,"Lunch ",2386,"",78.5,NA,314,"",55,NA,220
+"436","university of california los angeles","Nov 27",NA,"",NA,"",NA,"Drey (To go Location)",1093,"",136.5,NA,273,"",95.5,NA,191
+"437","university of california los angeles","Nov 27",NA,"",NA,"",NA,"Dinner ",2988,"",78,NA,312,"",62.5,NA,250
+"438","university of california los angeles","Nov 28",NA,"",NA,"",NA,"Breakfast",1741,"",64.75,NA,259,"",45.25,NA,181
+"439","university of california los angeles","Nov 28",NA,"",NA,"",NA,"Lunch ",2277,"",55.75,NA,223,"",44.5,NA,178
+"440","university of california los angeles","Nov 28",NA,"",NA,"",NA,"Drey (To go Location)",1163,"",145.5,NA,291,"",102,NA,204
+"441","university of california los angeles","Nov 28",NA,"",NA,"",NA,"Dinner ",2915,"",96.25,NA,385,"",67.5,NA,270
+"442","university of california los angeles","Nov 29",NA,"",NA,"",NA,"Breakfast",1778,"",55.5,NA,222,"",38.75,NA,155
+"443","university of california los angeles","Nov 29",NA,"",NA,"",NA,"Lunch ",2571,"",57.25,NA,229,"",40,NA,160
+"444","university of california los angeles","Nov 29",NA,"",NA,"",NA,"Drey (To go Location)",1104,"",138,NA,276,"",96.5,NA,193
+"445","university of california los angeles","Nov 29",NA,"",NA,"",NA,"Dinner ",2880,"",55,NA,220,"",44,NA,176
+"446","university of california los angeles","Nov 30",NA,"",NA,"",NA,"Breakfast",1619,"",70.25,NA,281,"",56.25,NA,225
+"447","university of california los angeles","Nov 30",NA,"",NA,"",NA,"Lunch ",2447,"",63.25,NA,253,"",44.25,NA,177
+"448","university of california los angeles","Nov 30",NA,"",NA,"",NA,"Drey (To go Location)",1126,"",141,NA,282,"",113,NA,226
+"449","university of california los angeles","Nov 30",NA,"",NA,"",NA,"Dinner ",2808,"",73,NA,292,"",51,NA,204
+"450","university of california los angeles","Dec 1",NA,"",NA,"",NA,"Breakfast",1447,"",63.25,NA,253,"",50.5,NA,202
+"451","university of california los angeles","Dec 1",NA,"",NA,"",NA,"Lunch ",2378,"",80.5,NA,322,"",64.5,NA,258
+"452","university of california los angeles","Dec 1",NA,"",NA,"",NA,"Drey (To go Location)",1206,"",151,NA,302,"",121,NA,242
+"453","university of california los angeles",NA,NA,"",NA,"",NA,"Dinner ",4055,"",61.25,NA,245,"",43,NA,172
+"454","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Blueberry Muffin",NA,NA,NA,"Cream Cake Mix",NA,NA,NA
+"455","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Pineapple Coconut Muffin",NA,NA,NA,"Cream Cake Mix",NA,NA,NA
+"456","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Banana Walnut Muffin",NA,NA,NA,"Cream Cake Mix",NA,NA,NA
+"457","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Lemon Muffin",NA,NA,NA,"Cream Cake Mix",NA,NA,NA
+"458","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Cream Roulade",NA,NA,NA,"Cream Cake Mix",NA,NA,NA
+"459","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Strawberry Cream Cake",NA,NA,NA,"Cream Cake Mix",NA,NA,NA
+"460","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Mocha Muffin",NA,NA,NA,"Chocolate Cake Mix",NA,NA,NA
+"461","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Chocolate Muffin",NA,NA,NA,"Chocolate Cake Mix",NA,NA,NA
+"462","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Cappucino Muffin",NA,NA,NA,"Chocolate Cake Mix",NA,NA,NA
+"463","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Double Chocolate Cake",NA,NA,NA,"Chocolate Cake Mix",NA,NA,NA
+"464","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery",NA,"Chocolate Bread",NA,NA,NA,"Chocolate Cake Mix",NA,NA,NA
+"465","university of california los angeles",NA,NA,"",NA,"",NA,"Bakery/Commissary",NA,"Meatballs",NA,NA,NA,"Hamburger Buns",NA,NA,NA
+"466","university of california los angeles",NA,NA,"",NA,"",NA,"Commissary",NA,"Prosciutto Ends",NA,NA,NA,"Panchetta Replacement for Clam Chowder",NA,NA,NA
+"467","university of california los angeles",NA,NA,"",NA,"",NA,"Commissary",NA,"Rosemary Chicken Breast",NA,NA,NA,"Turkish Chicken Salad",NA,NA,NA
+"468","university of california los angeles",NA,NA,"",NA,"",NA,"Commissary",NA,"Teriyaki Chicken Marinate",NA,NA,NA,"Teriyaki Sauce",NA,NA,NA
+"469","university of california los angeles",NA,NA,"",NA,"",NA," Commissary",NA,"Vegetable Trimmings",NA,NA,NA,"Vegetable Stock",NA,NA,NA
+"470","university of michigan","Oct 23",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"471","university of michigan","Oct 23",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"472","university of michigan","Oct 23",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"473","university of michigan","Oct 24",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"474","university of michigan","Oct 24",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"475","university of michigan","Oct 24",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"476","university of michigan","Oct 25",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"477","university of michigan","Oct 25",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"478","university of michigan","Oct 25",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"479","university of michigan","Oct 26",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"480","university of michigan","Oct 26",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"481","university of michigan","Oct 26",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"482","university of michigan","Oct 27",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"483","university of michigan","Oct 27",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"484","university of michigan","Oct 27",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"485","university of michigan","Oct 30",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"486","university of michigan","Oct 30",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"487","university of michigan","Oct 30",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"488","university of michigan","Oct 31",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"489","university of michigan","Oct 31",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"490","university of michigan","Oct 31",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"491","university of michigan","Nov 1",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"492","university of michigan","Nov 1",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"493","university of michigan","Nov 1",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"494","university of michigan","Nov 2",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"495","university of michigan","Nov 2",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"496","university of michigan","Nov 2",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"497","university of michigan","Nov 3",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"498","university of michigan","Nov 3",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"499","university of michigan","Nov 3",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"500","university of michigan","Nov 6",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"501","university of michigan","Nov 6",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"502","university of michigan","Nov 6",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"503","university of michigan","Nov 7",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"504","university of michigan","Nov 7",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"505","university of michigan","Nov 7",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"506","university of michigan","Nov 8",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"507","university of michigan","Nov 8",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"508","university of michigan","Nov 8",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"509","university of michigan","Nov 9",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"510","university of michigan","Nov 9",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"511","university of michigan","Nov 9",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"512","university of michigan","Nov 10",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"513","university of michigan","Nov 10",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"514","university of michigan","Nov 10",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"515","university of michigan","Nov 13",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"516","university of michigan","Nov 13",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"517","university of michigan","Nov 13",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"518","university of michigan","Nov14",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"519","university of michigan","Nov14",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"520","university of michigan","Nov14",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"521","university of michigan","Nov15",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"522","university of michigan","Nov15",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"523","university of michigan","Nov15",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"524","university of michigan","Nov 16",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"525","university of michigan","Nov 16",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"526","university of michigan","Nov 16",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"527","university of michigan","Nov 17",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"528","university of michigan","Nov 17",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"529","university of michigan","Nov 17",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"530","university of michigan","Nov 20",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"531","university of michigan","Nov 20",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"532","university of michigan","Nov 20",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"533","university of michigan","Nov 21",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"534","university of michigan","Nov 21",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"535","university of michigan","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"536","university of michigan","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"537","university of michigan","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"538","university of michigan","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"539","university of north texas","Oct 23",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"540","university of north texas","Oct 23",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"541","university of north texas","Oct 23",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"542","university of north texas","Oct 24",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"543","university of north texas","Oct 24",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"544","university of north texas","Oct 24",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"545","university of north texas","Oct 25",40,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"546","university of north texas","Oct 25",NA,"Basmati Rice",8.5,"",0,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"547","university of north texas","Oct 25",NA,"",NA,"",NA,"Dinner ",269,"Basmati Taboulleh Salad",8.5,NA,NA,NA,NA,NA,NA
+"548","university of north texas","Oct 26",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"549","university of north texas","Oct 26",NA,"Navy Beans",9.25,"",0,"Lunch ",303,"Pesto Navy Beans with Tomato",9.25,NA,NA,NA,NA,NA,NA
+"550","university of north texas","Oct 26",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"551","university of north texas","Oct 27",50,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"552","university of north texas","Oct 27",NA,"Pinto Beans",9.75,"",0,"Lunch ",355,"Spicy Refried Beans",9.75,NA,NA,NA,NA,NA,NA
+"553","university of north texas","Oct 27",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"554","university of north texas","Oct 30",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"555","university of north texas","Oct 30",NA,"Red Lentils",4.5,"",0,"Lunch ",425,"Coconut Red Lentil Stew",4.5,NA,NA,NA,NA,NA,NA
+"556","university of north texas","Oct 30",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"557","university of north texas","Oct 31",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"558","university of north texas","Oct 31",NA,"Adzuki Beans",5.25,"",0,"Lunch ",322," Sweet Red Bean Bao Bun",5.25,NA,NA,NA,NA,NA,NA
+"559","university of north texas","Oct 31",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"560","university of north texas","Nov 1",50,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"561","university of north texas","Nov 1",NA,"Chickpeas",4.5,"",0,"Lunch ",395,"Indian Curry Hummus",4.5,NA,NA,NA,NA,NA,NA
+"562","university of north texas","Nov 1",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"563","university of north texas","Nov 2",30,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"564","university of north texas","Nov 2",NA,"Polenta",6,"",0,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"565","university of north texas","Nov 2",NA,"",NA,"",NA,"Dinner ",422,"Grilled Polenta with House Kale Pesto",6,NA,NA,NA,NA,NA,NA
+"566","university of north texas","Nov 3",50,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"567","university of north texas","Nov 3",NA,"Black Beans",8.25,"",0,"Lunch ",298,"Spicy Black Bean Dip",8.25,NA,NA,NA,NA,NA,NA
+"568","university of north texas","Nov 3",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"569","university of north texas","Nov 6",15,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"570","university of north texas","Nov 6",NA,"Barley",4,"",0,"Lunch ",355,"MG Barley Risotto",4,NA,NA,NA,NA,NA,NA
+"571","university of north texas","Nov 6",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"572","university of north texas","Nov 7",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"573","university of north texas","Nov 7",NA,"Farro",5.5,"",0,"Lunch ",365,"Fall Farro Salad",5.5,NA,NA,NA,NA,NA,NA
+"574","university of north texas","Nov 7",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"575","university of north texas","Nov 8",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"576","university of north texas","Nov 8",NA,"Golden Lentils",6.5,"",0,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"577","university of north texas","Nov 8",NA,"",NA,"",NA,"Dinner ",455,"Lentil & Potato Patty",6.5,NA,NA,NA,NA,NA,NA
+"578","university of north texas","Nov 9",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"579","university of north texas","Nov 9",NA,"Black Eyed Peas",5,"",0,"Lunch ",265,"Texas Caviar",5,NA,NA,NA,NA,NA,NA
+"580","university of north texas","Nov 9",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"581","university of north texas","Nov 10",50,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"582","university of north texas","Nov 10",NA,"Pinto Beans",4.5,"",0,"Lunch ",366,"Spicy Kale & Pinto Bean Stew",4.5,NA,NA,NA,NA,NA,NA
+"583","university of north texas","Nov 10",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"584","university of north texas","Nov 13",25,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"585","university of north texas","Nov 13",NA,"Wild Rice Blend",8,"",0,"Lunch ",435,"Wild Rice Salad",8,NA,NA,NA,NA,NA,NA
+"586","university of north texas","Nov 13",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"587","university of north texas","Nov14",50,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"588","university of north texas","Nov14",NA,"Short Grain Rice",6.25,"",0,"Lunch ",366,"Griddled Rice Cakes",6.25,NA,NA,NA,NA,NA,NA
+"589","university of north texas","Nov14",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"590","university of north texas","Nov15",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"591","university of north texas","Nov15",NA,"Split Peas",5,"",0,"Lunch ",378,"Split Peas Soup",5,NA,NA,NA,NA,NA,NA
+"592","university of north texas","Nov15",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"593","university of north texas","Nov 16",25,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"594","university of north texas","Nov 16",NA,"Arborio Rice",5.25,"",0,"Lunch ",NA,"Fried Arancini with Farm Basil Pesto",5.25,NA,NA,NA,NA,NA,NA
+"595","university of north texas","Nov 16",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"596","university of north texas","Nov 17",25,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"597","university of north texas","Nov 17",NA,"Par Boiled Rice",6,"",0,"Lunch ",465,"Mexican Rice Salad",6,NA,NA,NA,NA,NA,NA
+"598","university of north texas","Nov 17",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"599","university of north texas","Nov 20",20,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"600","university of north texas","Nov 20",NA,"Kidney Beans",5.25,"",0,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"601","university of north texas","Nov 20",NA,"",NA,"",NA,"Dinner ",175,"Old Fashioned Kidney Bean Salad",5.25,NA,NA,NA,NA,NA,NA
+"602","university of north texas","Nov 21",25,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"603","university of north texas","Nov 21",NA,"Grits",6,"",0,"Lunch ",168,"Fried Grit Cakes",6,NA,NA,NA,NA,NA,NA
+"604","university of north texas","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"605","university of north texas","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,"",NA,NA,NA,NA,NA,NA,NA
+"606","university of north texas","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"607","university of north texas","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,"",NA,NA,NA,NA,NA,NA,NA
+"608","university of reading","Oct 23",NA,"",NA,"",NA,"Breakfast",35,"",NA,NA,NA,NA,NA,NA,NA
+"609","university of reading","Oct 23",NA,"",NA,"",NA,"Lunch ",322,"",NA,NA,NA,NA,NA,NA,NA
+"610","university of reading","Oct 23",NA,"",NA,"",NA,"Dinner ",123,"",NA,NA,NA,NA,NA,NA,NA
+"611","university of reading","Oct 24",NA,"onion root",0,"2kg",NA,"Breakfast",32,"Onion seasoning",NA,NA,NA,NA,NA,NA,NA
+"612","university of reading","Oct 24",NA,"onion skin",NA,"",NA,"Lunch ",357,"",NA,NA,NA,NA,NA,NA,NA
+"613","university of reading","Oct 24",NA,"",NA,"",NA,"Dinner ",131,"",NA,NA,NA,NA,NA,NA,NA
+"614","university of reading","Oct 25",NA,"",NA,"",NA,"Breakfast",22,"",NA,NA,NA,NA,NA,NA,NA
+"615","university of reading","Oct 25",NA,"",NA,"",NA,"Lunch ",328,"",NA,NA,NA,NA,NA,NA,NA
+"616","university of reading","Oct 25",NA,"",NA,"",NA,"Dinner ",191,"",NA,NA,NA,NA,NA,NA,NA
+"617","university of reading","Oct 26",NA,"",NA,"",NA,"Breakfast",14,"",NA,NA,NA,NA,NA,NA,NA
+"618","university of reading","Oct 26",NA,"",NA,"",NA,"Lunch ",289,"",NA,NA,NA,NA,NA,NA,NA
+"619","university of reading","Oct 26",NA,"",NA,"",NA,"Dinner ",105,"",NA,NA,NA,NA,NA,NA,NA
+"620","university of reading","Oct 27",NA,"onion root",NA,"2.5kg",NA,"Breakfast",36,"Onion seasoning",NA,NA,NA,NA,NA,NA,NA
+"621","university of reading","Oct 27",NA,"onion skin",NA,"",NA,"Lunch ",369,"",NA,NA,NA,NA,NA,NA,NA
+"622","university of reading","Oct 27",NA,"",NA,"",NA,"Dinner ",97,"",NA,NA,NA,NA,NA,NA,NA
+"623","university of reading","Oct 30",NA,"Onion skin",NA,"",NA,"Breakfast",19,"Onion seasoning",NA,NA,NA,NA,NA,NA,NA
+"624","university of reading","Oct 30",NA,"Onion root",NA,"Root",0.7,"Lunch ",207,"",NA,NA,NA,NA,NA,NA,NA
+"625","university of reading","Oct 30",NA,"",0,"",NA,"Dinner ",59,"",NA,NA,NA,NA,NA,NA,NA
+"626","university of reading","Oct 31",NA,"Skin",NA,"",NA,"Breakfast",18,"Onion seasoning",NA,NA,NA,NA,NA,NA,NA
+"627","university of reading","Oct 31",NA,"Root",NA,"Root",0.5,"Lunch ",257,"",NA,NA,NA,NA,NA,NA,NA
+"628","university of reading","Oct 31",NA,"",0,"",NA,"Dinner ",45,"",NA,NA,NA,NA,NA,NA,NA
+"629","university of reading","Nov 1",NA,"Kale Stalk ",NA,"0",0,"Breakfast",15,"",NA,NA,NA,NA,NA,NA,NA
+"630","university of reading","Nov 1",NA,"Leaf",NA,"0",NA,"Lunch ",106,"Kale Pesto ",NA,NA,NA,NA,NA,NA,NA
+"631","university of reading","Nov 1",NA,"Stalk",NA,"0",NA,"Dinner ",39,"",NA,NA,NA,NA,NA,NA,NA
+"632","university of reading","Nov 2",NA,"brocolli stalk",NA,"",NA,"Breakfast",22,"Kale Pesto ",NA,NA,NA,NA,NA,NA,NA
+"633","university of reading","Nov 2",NA,"kale leaf",NA,"",NA,"Lunch ",95,"",NA,NA,NA,NA,NA,NA,NA
+"634","university of reading","Nov 2",NA,"Kale Stalk ",NA,"",NA,"Dinner ",47,"",NA,NA,NA,NA,NA,NA,NA
+"635","university of reading","Nov 3",NA,"cauliflower root",NA,"",NA,"Breakfast",19,"",NA,NA,NA,NA,NA,NA,NA
+"636","university of reading","Nov 3",NA,"cauliflower leaves",NA,"",NA,"Lunch ",104,"",NA,NA,NA,NA,NA,NA,NA
+"637","university of reading","Nov 3",NA,"",NA,"",NA,"Dinner ",37,"",NA,NA,NA,NA,NA,NA,NA
+"638","university of reading","Nov 6",NA,"onion skin",NA,"",NA,"Breakfast",36,"Onion seasoning",NA,NA,NA,NA,NA,NA,NA
+"639","university of reading","Nov 6",NA,"kale stalk ",NA,"",NA,"Lunch ",318,"Kale pesto",NA,NA,NA,NA,NA,NA,NA
+"640","university of reading","Nov 6",NA,"",NA,"",NA,"Dinner ",119,"",NA,NA,NA,NA,NA,NA,NA
+"641","university of reading","Nov 7",NA,"",NA,"",NA,"Breakfast",49,"",NA,NA,NA,NA,NA,NA,NA
+"642","university of reading","Nov 7",NA,"",NA,"",NA,"Lunch ",307,"",NA,NA,NA,NA,NA,NA,NA
+"643","university of reading","Nov 7",NA,"",NA,"",NA,"Dinner ",120,"",NA,NA,NA,NA,NA,NA,NA
+"644","university of reading","Nov 8",NA,"",NA,"",NA,"Breakfast",25,"",NA,NA,NA,NA,NA,NA,NA
+"645","university of reading","Nov 8",NA,"",NA,"",NA,"Lunch ",272,"",NA,NA,NA,NA,NA,NA,NA
+"646","university of reading","Nov 8",NA,"",NA,"",NA,"Dinner ",77,"",NA,NA,NA,NA,NA,NA,NA
+"647","university of reading","Nov 9",NA,"Kale stalk ",NA,"",NA,"Breakfast",25,"Kale pesto",NA,NA,NA,NA,NA,NA,NA
+"648","university of reading","Nov 9",NA,"",NA,"",NA,"Lunch ",301,"",NA,NA,NA,NA,NA,NA,NA
+"649","university of reading","Nov 9",NA,"",NA,"",NA,"Dinner ",125,"",NA,NA,NA,NA,NA,NA,NA
+"650","university of reading","Nov 10",NA,"Broccoli Stalk ",NA,"",NA,"Breakfast",21,"Broccoli risotto",NA,NA,NA,NA,NA,NA,NA
+"651","university of reading","Nov 10",NA,"",NA,"",NA,"Lunch ",278,"",NA,NA,NA,NA,NA,NA,NA
+"652","university of reading","Nov 10",NA,"",NA,"",NA,"Dinner ",90,"",NA,NA,NA,NA,NA,NA,NA
+"653","university of reading","Nov 13",NA,"",NA,"",NA,"Breakfast",33,"",NA,NA,NA,NA,NA,NA,NA
+"654","university of reading","Nov 13",NA,"",NA,"",NA,"Lunch ",324,"",NA,NA,NA,NA,NA,NA,NA
+"655","university of reading","Nov 13",NA,"",NA,"",NA,"Dinner ",123,"",NA,NA,NA,NA,NA,NA,NA
+"656","university of reading","Nov14",NA,"Broccoli Stalk",NA,"",NA,"Breakfast",25,"",NA,NA,NA,NA,NA,NA,NA
+"657","university of reading","Nov14",NA,"Onion Peel",NA,"",NA,"Lunch ",299,"",NA,NA,NA,NA,NA,NA,NA
+"658","university of reading","Nov14",NA,"Onion Root",NA,"2kg",NA,"Dinner ",115,"",NA,NA,NA,NA,NA,NA,NA
+"659","university of reading","Nov15",NA,"Cauliflower leaf",NA,"",NA,"Breakfast",29,"",NA,NA,NA,NA,NA,NA,NA
+"660","university of reading","Nov15",NA,"Cauliflower root",NA,"1.5kg",NA,"Lunch ",265,"",NA,NA,NA,NA,NA,NA,NA
+"661","university of reading","Nov15",NA,"",NA,"",NA,"Dinner ",80,"",NA,NA,NA,NA,NA,NA,NA
+"662","university of reading","Nov 16",NA,"",NA,"",NA,"Breakfast",35,"",NA,NA,NA,NA,NA,NA,NA
+"663","university of reading","Nov 16",NA,"",NA,"",NA,"Lunch ",283,"",NA,NA,NA,NA,NA,NA,NA
+"664","university of reading","Nov 16",NA,"",NA,"",NA,"Dinner ",99,"",NA,NA,NA,NA,NA,NA,NA
+"665","university of reading","Nov 17",NA,"Onion Skin",NA,"",NA,"Breakfast",27,"",NA,NA,NA,NA,NA,NA,NA
+"666","university of reading","Nov 17",NA,"Onion Root ",NA,"1.5kg",NA,"Lunch ",335,"",NA,NA,NA,NA,NA,NA,NA
+"667","university of reading","Nov 17",NA,"Broccoli Stalk",NA,"",NA,"Dinner ",84,"Broccoli risotto",NA,NA,NA,NA,NA,NA,NA
+"668","university of reading","Nov 20",NA,"",NA,"",NA,"Breakfast",31,"",NA,NA,NA,NA,NA,NA,NA
+"669","university of reading","Nov 20",NA,"",NA,"",NA,"Lunch ",378,"",NA,NA,NA,NA,NA,NA,NA
+"670","university of reading","Nov 20",NA,"",NA,"",NA,"Dinner ",102,"",NA,NA,NA,NA,NA,NA,NA
+"671","university of reading","Nov 21",NA,"",NA,"",NA,"Breakfast",33,"",NA,NA,NA,NA,NA,NA,NA
+"672","university of reading","Nov 21",NA,"",NA,"",NA,"Lunch ",376,"",NA,NA,NA,NA,NA,NA,NA
+"673","university of reading","Nov 21",NA,"",NA,"",NA,"Dinner ",100,"",NA,NA,NA,NA,NA,NA,NA
+"674","university of reading","Nov 22",NA,"Kale Stalk",NA,"",NA,"Breakfast",42,"",NA,NA,NA,NA,NA,NA,NA
+"675","university of reading","Nov 22",NA,"Broccoli Stalk ",NA,"",NA,"Lunch ",310,"",NA,NA,NA,NA,NA,NA,NA
+"676","university of reading","Nov 22",NA,"",NA,"",NA,"Dinner ",66,"",NA,NA,NA,NA,NA,NA,NA
+"677","vanderbilt university","Oct 23",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"678","vanderbilt university","Oct 23",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"679","vanderbilt university","Oct 23",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"680","vanderbilt university","Oct 24",NA,"Cilantro",NA,"1/2 Lb",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"681","vanderbilt university","Oct 24",NA,"Broccoli",NA,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"682","vanderbilt university","Oct 24",NA,"Green onion",NA,"1 LB",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"683","vanderbilt university","Oct 25",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"684","vanderbilt university","Oct 25",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"685","vanderbilt university","Oct 25",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"686","vanderbilt university","Oct 26",NA,"Cilantro",NA,"Zero",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"687","vanderbilt university","Oct 26",NA,"Broccoli",NA,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"688","vanderbilt university","Oct 26",NA,"Green onion",NA,"1.5 Lbs",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"689","vanderbilt university","Oct 27",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"690","vanderbilt university","Oct 27",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"691","vanderbilt university","Oct 27",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"692","vanderbilt university","Oct 30",NA,"Cilantro",NA,"1/2 Lb",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"693","vanderbilt university","Oct 30",NA,"Broccoli",NA,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"694","vanderbilt university","Oct 30",NA,"Green onion",NA,"1 Lb",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"695","vanderbilt university","Oct 31",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"696","vanderbilt university","Oct 31",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"697","vanderbilt university","Oct 31",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"698","vanderbilt university","Nov 1",62,"Cilantro",NA,"1/2 Lb",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"699","vanderbilt university","Nov 1",NA,"Broccoli",NA,"Zero ",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"700","vanderbilt university","Nov 1",NA,"Green Onion",NA,"1 Lb",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"701","vanderbilt university","Nov 2",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"702","vanderbilt university","Nov 2",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"703","vanderbilt university","Nov 2",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"704","vanderbilt university","Nov 3",67,"Cilantro",NA,".75 Lbs",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"705","vanderbilt university","Nov 3",NA,"Broccoli ",NA,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"706","vanderbilt university","Nov 3",NA,"Green onion",NA,"1 Lb",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"707","vanderbilt university","Nov 6",142,"Cilantro",0,"Zero",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"708","vanderbilt university","Nov 6",NA,"Broccoli ",21,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"709","vanderbilt university","Nov 6",NA,"Green onion ",NA,"1 Lb",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"710","vanderbilt university","Nov 7",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"711","vanderbilt university","Nov 7",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"712","vanderbilt university","Nov 7",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"713","vanderbilt university","Nov 8",80,"Cilantro",NA,"1/2 Lb",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"714","vanderbilt university","Nov 8",NA,"Broccoli ",9,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"715","vanderbilt university","Nov 8",NA,"Green onion",NA,"1 Lb",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"716","vanderbilt university","Nov 9",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"717","vanderbilt university","Nov 9",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"718","vanderbilt university","Nov 9",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"719","vanderbilt university","Nov 10",67,"Cilantro",NA,".25 Lbs",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"720","vanderbilt university","Nov 10",NA,"Broccoli ",9,"Zero",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"721","vanderbilt university","Nov 10",NA,"Green onion ",NA,"1/2 Lb",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"722","vanderbilt university","Nov 13",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"723","vanderbilt university","Nov 13",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"724","vanderbilt university","Nov 13",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"725","vanderbilt university","Nov14",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"726","vanderbilt university","Nov14",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"727","vanderbilt university","Nov14",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"728","vanderbilt university","Nov15",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"729","vanderbilt university","Nov15",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"730","vanderbilt university","Nov15",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"731","vanderbilt university","Nov 16",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"732","vanderbilt university","Nov 16",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"733","vanderbilt university","Nov 16",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"734","vanderbilt university","Nov 17",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"735","vanderbilt university","Nov 17",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"736","vanderbilt university","Nov 17",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"737","vanderbilt university","Nov 20",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"738","vanderbilt university","Nov 20",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"739","vanderbilt university","Nov 20",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"740","vanderbilt university","Nov 21",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"741","vanderbilt university","Nov 21",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"742","vanderbilt university","Nov 21",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"743","vanderbilt university","Nov 22",NA,"",NA,"",NA,"Breakfast",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"744","vanderbilt university","Nov 22",NA,"",NA,"",NA,"Lunch ",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"745","vanderbilt university","Nov 22",NA,"",NA,"",NA,"Dinner ",NA,NA,NA,NA,NA,NA,NA,NA,NA

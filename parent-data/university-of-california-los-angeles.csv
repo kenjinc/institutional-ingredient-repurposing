@@ -1,0 +1,123 @@
+﻿,VOLUME of PRODUCT,,,,,,TOTAL MEAL SWIPES,,UTILIZATION RECIPE,,,,DISPLACED RECIPE,,,
+Site: UCLA,Total product purchased,Available Product Type (to Prepare for Service),Total available product to repurpose (after primary fabrication or preparation),Product Unable to Repurpose,Total available product left that cannot be repurposed (remaining product waste),,Meal Period Utilization Recipe Served,Meal swipes per period ,Recipe Name,Volume of Repurposed Ingredient Used in Recipe,Cost per recipe,Servings per recipe,Displaced Recipe Name (Optional: if replacing something on the line),Volume that would have been served ,Cost per recipe,Servings per recipe
+Product Type: ,(Volume in pounds),(Product Type),(Volume in pounds),(Product Type),(Volume in pounds),,,(when utilization recipe served),,(in pounds),(dollar/cents per recipe),(number of servings),,(of displaced recipe),(dollar/cents per recipe),(number of servings)
+Oct 30,,,,,,,Breakfast,1688,Bruin Scramble,78,0.684,312,Breakfast Taco,62.5,0.602,250
+Oct 30,,,,,,,Lunch ,2544,Hominy in Pork Gravy,64,0.849,256,Pork Pozole,52,0.939,205
+Oct 30,,,,,,,Drey (To go Location),1041,Impossible California Burrito,50,1.06,200,Impossible Tan Tan Ramen,40,1.68,160
+Oct 30,,,,,,,Dinner ,2660,Achiote Beef Brisket,35,0.936,140, Texas BBQ Brisket,14,1.234,56
+Oct 31,,,,,,,Breakfast,1421,Scramble Egg,94.75,0.46,378,Southern Style Bruin Scramble,75.5,0.56,302
+Oct 31,,,,,,,Lunch ,2293,BBQ Chicken Drumsticks,126.75,0.475,507,Grilled Honey Lemon Chicken Drumsticks,101.5,0.765,406
+Oct 31,,,,,,,Drey (To go Location),981,Beef Bulgogi,122.5,2.44,245,Bulgogi Bento,261,2.53,196
+Oct 31,,,,,,,Dinner ,3493,Chiipotle BBQ Ribs,26.75,0.88,107,Kansas City Pork Ribs,19,1.41,75
+Nov 1,,,,,,,Breakfast,1665,Huevos con Chorizo y Papas,33.75,0.5,135,Scramble Eggs,24,0.46,95
+Nov 1,,,,,,,Lunch ,2383,Loaded Mac N Cheese,54.25,,217,Mac N Cheese Burger,44,,174
+Nov 1,,,,,,,Drey (To go Location),1049,,131,,262,,105,,210
+Nov 1,,,,,,,Dinner ,2719,Diced Pineapple at Flex Bar,95.25,,381,Spicy Pineapple Salsa,77,,305
+Nov 2,,,,,,,Breakfast,1712,,47,,188,,33,,132
+Nov 2,,,,,,,Lunch ,2387,Coconut Rice w/ Pantains,28.25,,113,Caribbean Tofu & Coconut Rice Bowl,20,,79
+Nov 2,,,,,,,Drey (To go Location),930,,116,,232,,93,,186
+Nov 2,,,,,,,Dinner ,2660,Southen Succotash,35,,140,Corn & Lima Bean Succotash,28,,112
+Nov 3,,,,,,,Breakfast,1507,,73.25,,293,,48,,191
+Nov 3,,,,,,,Lunch ,2182,Quinoa & Almond Salad,79.5,,318,Quinoa Pilaf,56,,223
+Nov 3,,,,,,,Drey (To go Location),836,,104.5,,209,,84,,167
+Nov 3,,,,,,,Dinner ,3573,,6.75,,27,,5,,19
+,,,,,,,,,,,,,,,,
+Nov 6,,,,,,,Breakfast,1860,,10,,40,,8,,32
+Nov 6,,,,,,,Lunch ,2377,,30.75,,123,,22,,86
+Nov 6,,,,,,,Drey (To go Location),1029,,128.5,,257,,90,,180
+Nov 6,,,,,,,Dinner ,2993,,76.75,,307,,61.5,,246
+Nov 7,,,,,,,Breakfast,1942,,2,,8,,2,,6
+Nov 7,,,,,,,Lunch ,2429,,17.75,,71,,12.5,,50
+Nov 7,,,,,,,Drey (To go Location),998,,125,,250,,100,,200
+Nov 7,,,,,,,Dinner ,3072,,32,,128,,25.5,,102
+Nov 8,,,,,,,Breakfast,1906,,23.5,,94,,18.75,,75
+Nov 8,,,,,,,Lunch ,2341,,39.75,,159,,27.75,,111
+Nov 8,,,,,,,Drey (To go Location),999,,125,,250,,100,,200
+Nov 8,,,,,,,Dinner ,3130,Quinoa Pilaf,5,,20,Cajun Shrimp & Quinoa Casserole,4,,16
+Nov 9,,,,,,,Breakfast,1783,,54.25,,217,,38,,152
+Nov 9,,,,,,,Lunch ,2400,,25,,100,,20,,80
+Nov 9,,,,,,,Drey (To go Location),926,,116,,232,,93,,186
+Nov 9,,,,,,,Dinner ,2436,,116,,464,,92.75,,371
+Nov 10,,,,,,,Breakfast,1052,,112,,448,,89.5,,358
+Nov 10,,,,,,,Lunch ,2642,,14.5,,58,,11.5,,46
+Nov 10,,,,,,,Drey (To go Location),886,,111,,222,,77.5,,155
+Nov 10,,,,,,,Dinner ,2890,,2.5,,10,,2,,8
+,,,,,,,,,,,,,,,,
+Nov 13,,,,,,,Breakfast,1642,,14.5,,58,,11.5,,46
+Nov 13,,,,,,,Lunch ,2277,,55.75,,223,,39,,156
+Nov 13,,,,,,,Drey (To go Location),1121,,140,,280,,112,,224
+Nov 13,,,,,,,Dinner ,2938,,15.5,,62,,12.5,,50
+Nov 14,,,,,,,Breakfast,1807,,10.75,,43,,7.5,,30
+Nov 14,,,,,,,Lunch ,2446,Quinoa Pilaf,38.5,,154,Tikka Masala Kabocha Quinoa Salad,30.75,,123
+Nov 14,,,,,,,Drey (To go Location),1142,,143,,286,,114.5,,229
+Nov 14,,,,,,,Dinner ,2945,,13.75,,55,,9.75,,39
+Nov 15,,,,,,,Breakfast,1745,,38.75,,155,,27.25,,109
+Nov 15,,,,,,,Lunch ,2539,,15.25,,61,,10.75,,43
+Nov 15,,,,,,,Drey (To go Location),1120,,140,,280,,112,,224
+Nov 15,,,,,,,Dinner ,2727,,68.25,,273,,47.75,,191
+Nov 16,,,,,,,Breakfast,1601,,49.75,,199,,39.75,,159
+Nov 16,,,,,,,Lunch ,2432,,42,,168,,33.5,,134
+Nov 16,,,,,,,Drey (To go Location),1080,,135,,270,,108,,216
+Nov 16,,,,,,,Dinner ,2520,,57.5,,230,,46,,184
+Nov 17,,,,,,,Breakfast,1523,,31.75,,127,,25.5,,102
+Nov 17,,,,,,,Lunch ,2379,,30.25,,121,,24.5,,98
+Nov 17,,,,,,,Drey (To go Location),928,,115.5,,231,,92.5,,185
+Nov 17,,,,,,,Dinner ,3381,,4.75,,19,,3.75,,15
+,,,,,,,,,,,,,,,,
+Nov 20,,,,,,,Breakfast,1712,,9.5,,38,,6.75,,27
+Nov 20,,,,,,,Lunch ,2263,,34.25,,137,,27.5,,110
+Nov 20,,,,,,,Drey (To go Location),1103,,138,,276,,110.5,,221
+Nov 20,,,,,,,Dinner ,2682,,79.5,,318,,63.5,,254
+Nov 21,,,,,,,Breakfast,1522,,47,,188,,33,,132
+Nov 21,,,,,,,Lunch ,2296,,13.5,,54,,10.75,,43
+Nov 21,,,,,,,Drey (To go Location),963,,120.5,,241,,96.5,,193
+Nov 21,,,,,,,Dinner ,1985,,53.75,,215,,43,,172
+Nov 22,,,,,,,Breakfast,1006,,48.5,,194,,38.75,,155
+Nov 22,,,,,,,Lunch ,1628,,43,,172,,30,,120
+Nov 22,,,,,,,Drey (To go Location),,,,,,,,,
+Nov 22,,,,,,,Dinner ,719,,120.25,,481,,96.25,,385
+Nov 23,No Service,,,,,,Breakfast,,,,,,,,,
+Nov 23,,,,,,,Lunch ,,,,,,,,,
+Nov 23,,,,,,,Drey (To go Location),,,,,,,,,
+Nov 23,,,,,,,Dinner ,,,,,,,,,
+Nov 24,No Service,,,,,,Breakfast,,,,,,,,,
+Nov 24,,,,,,,Lunch ,,,,,,,,,
+Nov 24,,,,,,,Drey (To go Location),,,,,,,,,
+Nov 24,,,,,,,Dinner ,,,,,,,,,
+,,,,,,,,,,,,,,,,
+Nov 27,,,,,,,Breakfast,1563,,59.25,,237,,41.5,,166
+Nov 27,,,,,,,Lunch ,2386,,78.5,,314,,55,,220
+Nov 27,,,,,,,Drey (To go Location),1093,,136.5,,273,,95.5,,191
+Nov 27,,,,,,,Dinner ,2988,,78,,312,,62.5,,250
+Nov 28,,,,,,,Breakfast,1741,,64.75,,259,,45.25,,181
+Nov 28,,,,,,,Lunch ,2277,,55.75,,223,,44.5,,178
+Nov 28,,,,,,,Drey (To go Location),1163,,145.5,,291,,102,,204
+Nov 28,,,,,,,Dinner ,2915,,96.25,,385,,67.5,,270
+Nov 29,,,,,,,Breakfast,1778,,55.5,,222,,38.75,,155
+Nov 29,,,,,,,Lunch ,2571,,57.25,,229,,40,,160
+Nov 29,,,,,,,Drey (To go Location),1104,,138,,276,,96.5,,193
+Nov 29,,,,,,,Dinner ,2880,,55,,220,,44,,176
+Nov 30,,,,,,,Breakfast,1619,,70.25,,281,,56.25,,225
+Nov 30,,,,,,,Lunch ,2447,,63.25,,253,,44.25,,177
+Nov 30,,,,,,,Drey (To go Location),1126,,141,,282,,113,,226
+Nov 30,,,,,,,Dinner ,2808,,73,,292,,51,,204
+Dec 1,,,,,,,Breakfast,1447,,63.25,,253,,50.5,,202
+Dec 1,,,,,,,Lunch ,2378,,80.5,,322,,64.5,,258
+Dec 1,,,,,,,Drey (To go Location),1206,,151,,302,,121,,242
+NA,,,,,,,Dinner ,4055,,61.25,,245,,43,,172
+NA,,,,,,,Bakery,,Blueberry Muffin,,,,Cream Cake Mix,,,
+NA,,,,,,,Bakery,,Pineapple Coconut Muffin,,,,Cream Cake Mix,,,
+NA,,,,,,,Bakery,,Banana Walnut Muffin,,,,Cream Cake Mix,,,
+NA,,,,,,,Bakery,,Lemon Muffin,,,,Cream Cake Mix,,,
+NA,,,,,,,Bakery,,Cream Roulade,,,,Cream Cake Mix,,,
+NA,,,,,,,Bakery,,Strawberry Cream Cake,,,,Cream Cake Mix,,,
+NA,,,,,,,Bakery,,Mocha Muffin,,,,Chocolate Cake Mix,,,
+NA,,,,,,,Bakery,,Chocolate Muffin,,,,Chocolate Cake Mix,,,
+NA,,,,,,,Bakery,,Cappucino Muffin,,,,Chocolate Cake Mix,,,
+NA,,,,,,,Bakery,,Double Chocolate Cake,,,,Chocolate Cake Mix,,,
+NA,,,,,,,Bakery,,Chocolate Bread,,,,Chocolate Cake Mix,,,
+NA,,,,,,,Bakery/Commissary,,Meatballs,,,,Hamburger Buns,,,
+NA,,,,,,,Commissary,,Prosciutto Ends,,,,Panchetta Replacement for Clam Chowder,,,
+NA,,,,,,,Commissary,,Rosemary Chicken Breast,,,,Turkish Chicken Salad,,,
+NA,,,,,,,Commissary,,Teriyaki Chicken Marinate,,,,Teriyaki Sauce,,,
+NA,,,,,,, Commissary,,Vegetable Trimmings,,,,Vegetable Stock,,,
