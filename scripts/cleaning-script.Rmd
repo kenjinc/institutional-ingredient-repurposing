@@ -1,0 +1,32 @@
+---
+title: "cleaning-script"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## cleaning script
+
+### package loading
+
+```{r}
+library(tidyverse)
+library(ggpubr)
+```
+
+### data loading
+
+```{r}
+aggregated_data <- as_tibble(read.csv("/Users/kenjinchang/github/institutional-ingredient-repurposing/parent-data/boston-university.csv",skip=1)) 
+aggregated_data
+```
+
+### data writing
+
+```{r}
+write.csv(aggregated_data,file="/Users/kenjinchang/github/institutional-ingredient-repurposing/data/aggregated-data.csv")
+```
+
+
