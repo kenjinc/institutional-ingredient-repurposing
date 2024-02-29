@@ -113,9 +113,6 @@ ub_data <- as_tibble(read.csv("/Users/kenjinchang/github/institutional-ingredien
          .before="date")
 ```
 
-\[NOTE TO SELF: STILL NEED TO CONVERT KG VALUES TO LBS ONCE CHR -\> DBL
-MUTATE IS COMPLETE\]
-
 - university of california los angeles
 
 ``` r
@@ -159,9 +156,6 @@ ur_data <- as_tibble(read.csv("/Users/kenjinchang/github/institutional-ingredien
   mutate(site="university of reading",
          .before="date")
 ```
-
-\[NOTE TO SELF: STILL NEED TO CONVERT KG VALUES TO LBS ONCE CHR -\> DBL
-MUTATE IS COMPLETE\]
 
 - vanderbilt university
 
@@ -252,12 +246,14 @@ aggregated_data <- aggregated_data %>%
 
     ## Warning in mask$eval_all_mutate(quo): NAs introduced by coercion
 
-- in addition, for the two participating sites in the UK (i.e.,
-  university of bristol and university of reading), we will need to
-  perform conversions for the provided cost and weight values,
-  transforming them from costs represented in pound sterlings to costs
-  represented in USD and from weights represented in kilograms to
-  weights represented in pounds
+- unit conversions
+
+in addition, for the two participating sites in the UK (i.e., university
+of bristol and university of reading), we will need to perform
+conversions for the provided cost and weight values, transforming them
+from costs represented in pound sterlings to costs represented in USD
+and from weights represented in kilograms to weights represented in
+pounds
 
 to accomplish this, we’ll perform a conditional mutate that applies
 conversion factors of 2.205 (4sf) and 1.27 (3sf) to weight and cost
@@ -287,14 +283,16 @@ aggregated_data <- aggregated_data %>%
 
 —- ^^^ still need to spot check whether this worked as intended ^^^ —-
 
-- because the tibble contains data that correspond to different time
-  intervals (i.e., some data that correspond to a day and some data that
-  correspond to a meal period), we also need to align respondents’
-  day-level data inputs with all cells that correspond to that same day.
-  said differently, there are either three or four rows corresponding to
-  each day for each site, and the inputs that correspond to that day are
-  frequently represented under just one of those three or four sets of
-  cells.
+- populating residual cells at day level
+
+because the tibble contains data that correspond to different time
+intervals (i.e., some data that correspond to a day and some data that
+correspond to a meal period), we also need to align respondents’
+day-level data inputs with all cells that correspond to that same day.
+said differently, there are either three or four rows corresponding to
+each day for each site, and the inputs that correspond to that day are
+frequently represented under just one of those three or four sets of
+cells.
 
 ### data writing and codebook documentation
 
