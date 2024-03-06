@@ -202,11 +202,13 @@ aggregated_data
 now that we’ve aggregated the data from the participating sites into one
 consolidated table, we’ll need to modify the structure of the data
 and—in some cases—the inputted values, both to align the dataset with
-our analyses and to map site-provided responses with site-implemented
-practices
+our analytical approach and to map site-provided responses (i.e., what
+respondents reported) with site-implemented practices (i.e., what sites
+did in practice)
 
-in addition, there are other reporting discrepancies that require
-standardization
+in addition, there are some other reporting discrepancies that require
+standardization across sites (e.g., differences in the units reported
+for cost and weight)
 
 we trace, detail, and justify each of these modifications below:
 
@@ -222,41 +224,18 @@ to identify these particularities, we consult the parent data in the
 *san jose state university*
 
 here, we see that the respondent appended unit identifiers within the
-columns containing weight data. this will introduce NAs by coercion in
-the subsequent step, where we will convert columns containing numeric
-data from character strings to double-class vectors
+columns containing weight values. this will ultimately introduce `NA`
+values by coercion in the subsequent step, where we convert columns
+containing numeric data from character strings to double-class vectors
 
-to avoid this issue, we will remove these identifiers from the columns
-where they’ve been included
-
-``` r
-sjsu_data 
-```
-
-    ## # A tibble: 69 × 17
-    ##    site    date  prod_…¹ prod_…² prod_…³ prod_…⁴ prod_…⁵ meal_…⁶ meal_…⁷ recip…⁸
-    ##    <chr>   <chr> <chr>   <chr>   <chr>   <chr>   <chr>   <chr>   <chr>   <chr>  
-    ##  1 san jo… 23-O… ""      ""      ""      ""      ""      "Break… ""      ""     
-    ##  2 san jo… 23-O… ""      ""      ""      ""      ""      "Lunch… ""      ""     
-    ##  3 san jo… 23-O… ""      ""      ""      ""      ""      "Dinne… ""      ""     
-    ##  4 san jo… 24-O… "50 lb" "Yello… "5 lb"  "Stem"  "8 oz " "Break… "750"   ""     
-    ##  5 san jo… 24-O… ""      ""      ""      "Slime" "8 oz " "Lunch… "1500"  "Pumpk…
-    ##  6 san jo… 24-O… ""      ""      ""      ""      ""      "Dinne… "1500"  ""     
-    ##  7 san jo… 25-O… "15 lb" ""      ""      "Stem " "4oz"   "Break… ""      ""     
-    ##  8 san jo… 25-O… ""      "Figle… "2 lb"  "Slime" "4oz"   "Lunch… "20 (G… "Chila…
-    ##  9 san jo… 25-O… ""      ""      ""      ""      ""      "Dinne… ""      ""     
-    ## 10 san jo… 26-O… "150 l… "Over … "138 l… "Rinds… "22 lb" "Break… ""      ""     
-    ## # … with 59 more rows, 7 more variables: prod_vol_in_recipe <chr>,
-    ## #   recipe_cost <chr>, recipe_servings <chr>, displaced_recipe <chr>,
-    ## #   displaced_recipe_vol <chr>, displaced_recipe_cost <chr>,
-    ## #   displaced_recipe_servings <chr>, and abbreviated variable names
-    ## #   ¹​prod_vol_purch, ²​prod_type, ³​prod_vol_avail_upcyc,
-    ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
-    ## #   ⁷​meal_swipes, ⁸​recipe_served
+to subvert this issue, which will invariably result in a loss of data,
+we will need to first remove these identifiers from the corresponding
+strings
 
 ``` r
 sjsu_data %>%
-  mutate(prod_vol_purch=str_replace(prod_vol_purch,"lb",""))
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"lb","")) %>%
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"oz",""))
 ```
 
     ## # A tibble: 69 × 17
@@ -280,8 +259,16 @@ sjsu_data %>%
     ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
     ## #   ⁷​meal_swipes, ⁸​recipe_served
 
-of each (need to separate mint and cilantro) - may need to create
-item-specific variable set first
+``` r
+###need to disaggregate mint and cilantro###
+```
+
+furthermore, we will also need to make a note here to convert the values
+that have been provided in ounces and gallons to pounds during the next
+cleaning stages
+
+because theseof each (need to separate mint and cilantro) - may need to
+create item-specific variable set first
 
 need to convert gallon to pounds (assume water)
 
