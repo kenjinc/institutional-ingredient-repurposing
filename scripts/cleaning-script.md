@@ -216,10 +216,11 @@ we trace, detail, and justify each of these modifications below:
 
 because there are subtle differences in how respondents’ inputted their
 site-level information, there are some formatting refinements that need
-to be made in order accommodate some downstream functions
+to be made in order accommodate future downstream functions
 
 to identify these particularities, we consult the parent data in the
-`xlsxs` folder
+`xlsxs` folder and compare them against what is currently provided in
+the aggregated dataset and the formatting requirements for our analyses
 
 *san jose state university*
 
@@ -232,10 +233,48 @@ to subvert this issue, which will invariably result in a loss of data,
 we will need to first remove these identifiers from the corresponding
 strings
 
+because this step prompts us to look more closely at how the data is
+presented, it’s worth pointing out that we will eventually need to
+separate the purchase of cilantro on mint on November 17, as we want
+to—to the best of our ability—itemize this product information
+individually
+
+while doing so, we will also perform unit conversions in the instances
+where values are provided in units other than pounds
+
 ``` r
 sjsu_data %>%
   mutate(prod_vol_purch=str_replace(prod_vol_purch,"lb","")) %>%
-  mutate(prod_vol_purch=str_replace(prod_vol_purch,"oz",""))
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"oz","")) %>%
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"oz","")) %>%
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"gal","")) %>%
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"Loaves","")) %>%
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"each","")) %>%
+  mutate(prod_vol_purch=str_replace(prod_vol_purch,"of","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"lb","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"oz","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"oz","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"gal","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"Loaves","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"each","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"of","")) %>%
+  mutate(prod_vol_avail_upcyc=str_replace(prod_vol_avail_upcyc,"Campus Closed","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"lb","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"oz","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"oz","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"gal","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"Loaves","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"each","")) %>%
+  mutate(prod_vol_unavail_upcyc=str_replace(prod_vol_unavail_upcyc,"of","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"Campus Closed","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"lb","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"oz","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"oz","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"gal","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"Loaves","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"each","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"of","")) %>%
+  mutate(prod_vol_in_recipe=str_replace(prod_vol_in_recipe,"loaves","")) 
 ```
 
     ## # A tibble: 69 × 17
@@ -244,13 +283,13 @@ sjsu_data %>%
     ##  1 san jo… 23-O… ""      ""      ""      ""      ""      "Break… ""      ""     
     ##  2 san jo… 23-O… ""      ""      ""      ""      ""      "Lunch… ""      ""     
     ##  3 san jo… 23-O… ""      ""      ""      ""      ""      "Dinne… ""      ""     
-    ##  4 san jo… 24-O… "50 "   "Yello… "5 lb"  "Stem"  "8 oz " "Break… "750"   ""     
-    ##  5 san jo… 24-O… ""      ""      ""      "Slime" "8 oz " "Lunch… "1500"  "Pumpk…
+    ##  4 san jo… 24-O… "50 "   "Yello… "5 "    "Stem"  "8  "   "Break… "750"   ""     
+    ##  5 san jo… 24-O… ""      ""      ""      "Slime" "8  "   "Lunch… "1500"  "Pumpk…
     ##  6 san jo… 24-O… ""      ""      ""      ""      ""      "Dinne… "1500"  ""     
-    ##  7 san jo… 25-O… "15 "   ""      ""      "Stem " "4oz"   "Break… ""      ""     
-    ##  8 san jo… 25-O… ""      "Figle… "2 lb"  "Slime" "4oz"   "Lunch… "20 (G… "Chila…
+    ##  7 san jo… 25-O… "15 "   ""      ""      "Stem " "4"     "Break… ""      ""     
+    ##  8 san jo… 25-O… ""      "Figle… "2 "    "Slime" "4"     "Lunch… "20 (G… "Chila…
     ##  9 san jo… 25-O… ""      ""      ""      ""      ""      "Dinne… ""      ""     
-    ## 10 san jo… 26-O… "150 "  "Over … "138 l… "Rinds… "22 lb" "Break… ""      ""     
+    ## 10 san jo… 26-O… "150 "  "Over … "138 "  "Rinds… "22 "   "Break… ""      ""     
     ## # … with 59 more rows, 7 more variables: prod_vol_in_recipe <chr>,
     ## #   recipe_cost <chr>, recipe_servings <chr>, displaced_recipe <chr>,
     ## #   displaced_recipe_vol <chr>, displaced_recipe_cost <chr>,
@@ -259,18 +298,40 @@ sjsu_data %>%
     ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
     ## #   ⁷​meal_swipes, ⁸​recipe_served
 
+once we have done this for all sites, we will then reaggregate the
+dataset using the code chunk below so that the tibble reflects the
+site-level changes have been made
+
 ``` r
-###need to disaggregate mint and cilantro###
+aggregated_data <- bind_rows(bu_data,cia_data,ru_data,sjsu_data,su_data,ub_data,ucla_data,um_data,unt_data,ur_data,vu_data)
+aggregated_data
 ```
 
+    ## # A tibble: 803 × 17
+    ##    site    date  prod_…¹ prod_…² prod_…³ prod_…⁴ prod_…⁵ meal_…⁶ meal_…⁷ recip…⁸
+    ##    <chr>   <chr> <chr>   <chr>   <chr>   <chr>   <chr>   <chr>   <chr>   <chr>  
+    ##  1 boston… Oct … "190"   pineap… "85.75" "tops,… "68.75" Breakf… 978     "pinea…
+    ##  2 boston… Oct … "60"    brocco… "7.25"  "stem … "1"     Lunch   2447    "pinea…
+    ##  3 boston… Oct … "30"    cilant… "3"     "stem"  "0.5"   Dinner  1755    ""     
+    ##  4 boston… Oct … "220"   pineap… "99.3"  "tops,… "79.7"  Breakf… 1146    "pinea…
+    ##  5 boston… Oct … "60"    brocco… "7.7"   "stem … "1.1"   Lunch   2153    "pinea…
+    ##  6 boston… Oct … "30"    cilant… "3.4"   "stem"  "0.6"   Dinner  1611    ""     
+    ##  7 boston… Oct … "189"   pineap… "85.3"  "tops,… "68.4"  Breakf… 1003    "pinea…
+    ##  8 boston… Oct … "42"    brocco… "5.4"   "stem … "0.7"   Lunch   2314    "pinea…
+    ##  9 boston… Oct … "60"    cilant… "6.7"   "stem"  "1.1"   Dinner  1614    "pickl…
+    ## 10 boston… Oct … ""      pineap… ""      ""      ""      Breakf… 1085    "pinea…
+    ## # … with 793 more rows, 7 more variables: prod_vol_in_recipe <chr>,
+    ## #   recipe_cost <chr>, recipe_servings <chr>, displaced_recipe <chr>,
+    ## #   displaced_recipe_vol <chr>, displaced_recipe_cost <chr>,
+    ## #   displaced_recipe_servings <chr>, and abbreviated variable names
+    ## #   ¹​prod_vol_purch, ²​prod_type, ³​prod_vol_avail_upcyc,
+    ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
+    ## #   ⁷​meal_swipes, ⁸​recipe_served
+
 furthermore, we will also need to make a note here to convert the values
-that have been provided in ounces and gallons to pounds during the next
-cleaning stages
-
-because theseof each (need to separate mint and cilantro) - may need to
-create item-specific variable set first
-
-need to convert gallon to pounds (assume water)
+that have been provided in ounces, gallons, and loaves to pounds, but we
+will have to do so once we change the column from a character string to
+a double-class vector
 
 - data structure changes
 
@@ -345,9 +406,8 @@ aggregated_data <- aggregated_data %>%
   mutate(case_when(site=="university of reading" ~ prod_vol_avail_upcyc==prod_vol_avail_upcyc*2.205)) %>%
   mutate(case_when(site=="university of reading" ~ prod_vol_unavail_upcyc==prod_vol_unavail_upcyc*2.205)) %>%
   mutate(case_when(site=="university of reading" ~ prod_vol_in_recipe==prod_vol_in_recipe*2.205)) 
+###still need to double check whether this worked as intended
 ```
-
-—- ^^^ still need to spot check whether this worked as intended ^^^ —-
 
 - populating residual cells at day level
 
@@ -375,9 +435,9 @@ this will require us to first generate a new variable describing the
 number of ingredients that were purchased or prepared on a given day,
 and separate the `prod_vol_purch`, `prod_type`, `prod_vol_avail_upcyc`,
 `prod_type_unavail_upcyc`, and `prod_vol_unavail_upcyc` variables across
-the maximum number of ingredients purchased in a single day (by creating
-adjoining product-volume variables that are specific to each type of
-ingredient purchased or prepared)
+the maximum number of ingredients purchased in a single day across all
+sites (by creating adjoining product-volume variables that are specific
+to each type of ingredient purchased or prepared)
 
 ``` r
 aggregated_data
@@ -404,9 +464,9 @@ aggregated_data
     ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
     ## #   ⁷​meal_swipes, ⁸​recipe_served
 
-\*\*\*\*\*\*note to reflect this in codebook\*\*\*\*\*
-
-count_prod
+``` r
+###remember to reflect this change in the codebook below
+```
 
 this will require us to create a new variable-organization system that
 maps the previously identified `prod_vol_purch`, `prod_type`,
@@ -416,38 +476,26 @@ used. this should help with some downstream mutations, as it will allow
 us to retain a record of all the originally input volume-of-product
 information while also accommodating our time-interval data structure
 
-said differently, we will construct
+laundry list of remaining edits:
 
-``` r
-aggregated_data
-```
+- site-level changes (in addition to sjsu)
 
-    ## # A tibble: 803 × 18
-    ##    site    date  prod_…¹ prod_…² prod_…³ prod_…⁴ prod_…⁵ meal_…⁶ meal_…⁷ recip…⁸
-    ##    <chr>   <chr>   <dbl> <chr>     <dbl> <chr>     <dbl> <chr>     <dbl> <chr>  
-    ##  1 boston… Oct …     190 pineap…   85.8  "tops,…    68.8 Breakf…     978 "pinea…
-    ##  2 boston… Oct …      60 brocco…    7.25 "stem …     1   Lunch      2447 "pinea…
-    ##  3 boston… Oct …      30 cilant…    3    "stem"      0.5 Dinner     1755 ""     
-    ##  4 boston… Oct …     220 pineap…   99.3  "tops,…    79.7 Breakf…    1146 "pinea…
-    ##  5 boston… Oct …      60 brocco…    7.7  "stem …     1.1 Lunch      2153 "pinea…
-    ##  6 boston… Oct …      30 cilant…    3.4  "stem"      0.6 Dinner     1611 ""     
-    ##  7 boston… Oct …     189 pineap…   85.3  "tops,…    68.4 Breakf…    1003 "pinea…
-    ##  8 boston… Oct …      42 brocco…    5.4  "stem …     0.7 Lunch      2314 "pinea…
-    ##  9 boston… Oct …      60 cilant…    6.7  "stem"      1.1 Dinner     1614 "pickl…
-    ## 10 boston… Oct …      NA pineap…   NA    ""         NA   Breakf…    1085 "pinea…
-    ## # … with 793 more rows, 8 more variables: prod_vol_in_recipe <dbl>,
-    ## #   recipe_cost <dbl>, recipe_servings <dbl>, displaced_recipe <chr>,
-    ## #   displaced_recipe_vol <dbl>, displaced_recipe_cost <dbl>,
-    ## #   displaced_recipe_servings <dbl>, `case_when(...)` <lgl>, and abbreviated
-    ## #   variable names ¹​prod_vol_purch, ²​prod_type, ³​prod_vol_avail_upcyc,
-    ## #   ⁴​prod_type_unavail_upcyc, ⁵​prod_vol_unavail_upcyc, ⁶​meal_period,
-    ## #   ⁷​meal_swipes, ⁸​recipe_served
+- populating residual cells at day level
+
+  - changing data structure so that product-volume information for each
+    day corresponds to its own set of ingredient-specific product-volume
+    variables
 
 - inputting supplemental survey data
 
 - aligning date format
 
 - mutating new variables
+
+this final step is basically a matter of aggregating the total amount of
+ingredient-specific product that was diverted through repurposing (by
+weight) both at the day level and over the duration of the examined
+period
 
 ### data writing and codebook documentation
 
